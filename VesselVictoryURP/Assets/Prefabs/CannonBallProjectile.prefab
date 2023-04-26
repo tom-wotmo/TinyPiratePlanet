@@ -29,6 +29,24 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3068006
   m_Center: {x: 0, y: 0, z: -0.013375431}
+--- !u!114 &-9151619357989818952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6637295851230576654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.9339623, g: 0.34820807, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!114 &-1486667554968126043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,6 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.5
+  projectileDamage: 10
 --- !u!114 &3405299289128792169
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 public class CannonBallPass : MonoBehaviour
 {
     [SerializeField]private float delay = 0.5f;
-
+    [SerializeField]private float projectileDamage = 10f;
     void Start()
     {
         Destroy(gameObject, delay);
@@ -17,5 +17,8 @@ public class CannonBallPass : MonoBehaviour
             Debug.Log("Cannon Destroyed");
         }
     }
+    public float getProjectileDamage() { return projectileDamage; }
+   
+
 
 }
