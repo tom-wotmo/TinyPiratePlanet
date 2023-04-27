@@ -191,8 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileStats: {fileID: -1486667554968126043, guid: a9a17a7e8e97a27409c28f1285b883a3, type: 3}
   projectilePrefab: {fileID: 608178624545694442, guid: 029dd85d5bd36774bab0cd63902602c1, type: 3}
-  playerTransform: {fileID: 0}
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 5653134068178229877}
   projectileSpeed: 10
 --- !u!1 &8543283004377869012
 GameObject:
