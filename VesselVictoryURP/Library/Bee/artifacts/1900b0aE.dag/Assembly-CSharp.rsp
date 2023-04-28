@@ -339,6 +339,7 @@
 "Assets/VVScripts/Enemy/EnemyCombatManager.cs"
 "Assets/VVScripts/Function/CameraSmoothFollow.cs"
 "Assets/VVScripts/Function/CannonBallPass.cs"
+"Assets/VVScripts/Function/EnemySpawner.cs"
 "Assets/VVScripts/Function/SphereGravity.cs"
 "Assets/VVScripts/Function/SphereGravityBody.cs"
 "Assets/VVScripts/Player/AmmoCrate.cs"

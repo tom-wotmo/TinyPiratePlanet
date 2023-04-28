@@ -7,11 +7,14 @@ public class EnemyCombatManager : MonoBehaviour
     private EnemyBoatStats enemyStats;
     [SerializeField] private CannonBallPass projectileStats;
     [SerializeField] private GameObject projectilePrefab;
-    private GameObject player;
-    private Transform playerTransform;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float projectileSpeed = 10f;
+    [SerializeField] private float cannonRange = 0f;
+    [SerializeField] private float cannonDelayMinF, cannonDelayMaxF;
 
+    private GameObject player;
+    private Transform playerTransform;
+   
     private float thisShipHealth;
     private float projectileDamage;
     private void Start()
@@ -19,39 +22,42 @@ public class EnemyCombatManager : MonoBehaviour
         enemyStats = GetComponent<EnemyBoatStats>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerTransform = player.transform;
-
         StartCoroutine(DelayedFireEnemyCannon());
     }
     private void Update()
     {
         thisShipHealth = enemyStats.getEnemyShipHealth();
-
         projectileDamage = projectileStats.getProjectileDamage();
-
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == LayerMask.NameToLayer("PlayerProjectiles"))
-        {
-            enemyStats.setEnemyShipHealth(thisShipHealth - projectileDamage);
-
-        }
+        if(other.gameObject.layer == LayerMask.NameToLayer("PlayerProjectiles")){ enemyStats.setEnemyShipHealth(thisShipHealth - projectileDamage);}
     }
     private void FireEnemyCannon()
     {
-        Vector3 playerPosition = (playerTransform.position - spawnPoint.position).normalized;
+        float distanceFromPlayer = Vector3.Distance(transform.position, playerTransform.position);
 
-        GameObject spawnedProjectile = Instantiate(projectilePrefab, spawnPoint.position, spawnPoint.rotation);
-        Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
-        spawnPoint.LookAt(playerTransform);
-        projectileRigidBody.velocity = playerPosition * projectileSpeed;
+        if (distanceFromPlayer <= cannonRange)
+        {
+            Vector3 playerPosition = (playerTransform.position - spawnPoint.position).normalized;
+            GameObject spawnedProjectile = Instantiate(projectilePrefab, spawnPoint.position, spawnPoint.rotation);
+            Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
+            spawnPoint.LookAt(playerTransform);
+            projectileRigidBody.velocity = playerPosition * projectileSpeed;
+        }
     }
     IEnumerator DelayedFireEnemyCannon()
     {
-        while (true)
+        while (true) //delaying the triple fire from all 3 boats upon spawn
         {
-            yield return new WaitForSeconds(5f);
+            float delay = Random.Range(cannonDelayMinF, cannonDelayMaxF);
+            yield return new WaitForSeconds(delay);
             FireEnemyCannon();
         }
+    }
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, cannonRange);
     }
 }
