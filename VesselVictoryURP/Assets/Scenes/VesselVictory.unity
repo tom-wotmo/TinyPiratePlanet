@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
+  outlineMode: 1
   outlineColor: {r: 1, g: 1, b: 1, a: 1}
   outlineWidth: 7
   precomputeOutline: 1
@@ -835,6 +835,14 @@ PrefabInstance:
     - target: {fileID: 8793796136634294477, guid: caa526b2fd2a05545a6f9f997036dd07, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793796136634294477, guid: caa526b2fd2a05545a6f9f997036dd07, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.atime1
+      value: 47995
+      objectReference: {fileID: 0}
+    - target: {fileID: 8793796136634294477, guid: caa526b2fd2a05545a6f9f997036dd07, type: 3}
+      propertyPath: InitialModule.startColor.maxGradient.ctime0
+      value: 11372
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caa526b2fd2a05545a6f9f997036dd07, type: 3}

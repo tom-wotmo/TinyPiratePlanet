@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class EnemyCombatManager : MonoBehaviour
 {
-    private EnemyBoatStats enemyStats;
+    private EnemyStats enemyStats;
     [SerializeField] private CannonBallPass projectileStats;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float projectileSpeed = 10f;
     [SerializeField] private float cannonRange = 0f;
     [SerializeField] private float cannonDelayMinF, cannonDelayMaxF;
-
     private GameObject player;
     private Transform playerTransform;
    
@@ -19,7 +18,7 @@ public class EnemyCombatManager : MonoBehaviour
     private float projectileDamage;
     private void Start()
     {
-        enemyStats = GetComponent<EnemyBoatStats>();
+        enemyStats = GetComponent<EnemyStats>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerTransform = player.transform;
         StartCoroutine(DelayedFireEnemyCannon());

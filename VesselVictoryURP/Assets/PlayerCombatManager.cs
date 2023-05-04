@@ -7,8 +7,6 @@ public class PlayerCombatManager : MonoBehaviour
     private ShipStats thisShipStats;
     private float thisShipHealth;
     private float projectileDamage;
-
-
     private void Start()
     {
         thisShipStats = GetComponent<ShipStats>();
