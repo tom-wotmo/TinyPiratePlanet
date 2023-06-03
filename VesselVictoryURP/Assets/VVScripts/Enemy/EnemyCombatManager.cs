@@ -5,15 +5,21 @@ using UnityEngine;
 public class EnemyCombatManager : MonoBehaviour
 {
     private EnemyShipStats enemyStats;
+
     [SerializeField] private CannonBallPass projectileStats;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform spawnPoint;
-    [SerializeField] private float projectileSpeed = 10f;
-    [SerializeField] private float cannonRange = 0f;
-    [SerializeField] private float cannonDelayMinF, cannonDelayMaxF;
+
+    
+    
+    [SerializeField] private float cannonDelayMinF, cannonDelayMaxF; 
+
     private GameObject player;
     private Transform playerTransform;
-   
+
+    private const float DEFAULT_PROJECTILE_SPEED = 3f;
+    private const float DEFAULT_CANNON_RANGE = 10f;
+
     private float thisShipHealth;
     private float projectileDamage;
     private void Start()
@@ -30,24 +36,26 @@ public class EnemyCombatManager : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.layer == LayerMask.NameToLayer("PlayerProjectiles")){ enemyStats.setEnemyShipHealth(thisShipHealth - projectileDamage);}
+        if(other.gameObject.layer == LayerMask.NameToLayer("PlayerProjectiles"))
+        { enemyStats.setEnemyShipHealth(thisShipHealth - projectileDamage);}
     }
     private void FireEnemyCannon()
     {
         float distanceFromPlayer = Vector3.Distance(transform.position, playerTransform.position);
 
-        if (distanceFromPlayer <= cannonRange)
+        if (distanceFromPlayer <= DEFAULT_CANNON_RANGE)
         {
             Vector3 playerPosition = (playerTransform.position - spawnPoint.position).normalized;
             GameObject spawnedProjectile = Instantiate(projectilePrefab, spawnPoint.position, spawnPoint.rotation);
             Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
             spawnPoint.LookAt(playerTransform);
-            projectileRigidBody.velocity = playerPosition * projectileSpeed;
+            projectileRigidBody.velocity = playerPosition * DEFAULT_PROJECTILE_SPEED;
         }
     }
+    //Patchwork bug fix to stop all cannons from firing upon 
     IEnumerator DelayedFireEnemyCannon()
     {
-        while (true) //delaying the triple fire from all 3 boats upon spawn
+        while (true) 
         {
             float delay = Random.Range(cannonDelayMinF, cannonDelayMaxF);
             yield return new WaitForSeconds(delay);
@@ -57,6 +65,6 @@ public class EnemyCombatManager : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, cannonRange);
+        Gizmos.DrawWireSphere(transform.position, DEFAULT_CANNON_RANGE);
     }
 }

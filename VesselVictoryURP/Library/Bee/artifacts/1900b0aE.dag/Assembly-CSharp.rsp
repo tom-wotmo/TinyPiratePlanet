@@ -354,7 +354,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/PlayerCombatManager.cs"
 "Assets/UnityStore[]/QuickOutline/Scripts/Outline.cs"
 "Assets/VVScripts/Enemy/EnemyBoatMovement.cs"
 "Assets/VVScripts/Enemy/EnemyCombatManager.cs"
@@ -362,13 +361,16 @@
 "Assets/VVScripts/Function/CameraSmoothFollow.cs"
 "Assets/VVScripts/Function/CannonBallPass.cs"
 "Assets/VVScripts/Function/EnemySpawner.cs"
+"Assets/VVScripts/Function/SpawnAmmoCrates.cs"
+"Assets/VVScripts/Function/Spawner.cs"
 "Assets/VVScripts/Function/SphereGravity.cs"
 "Assets/VVScripts/Function/SphereGravityBody.cs"
+"Assets/VVScripts/Inherited Scripts/Stats.cs"
 "Assets/VVScripts/Player/AmmoCrate.cs"
 "Assets/VVScripts/Player/PlayerCannon.cs"
+"Assets/VVScripts/Player/PlayerCombatManager.cs"
 "Assets/VVScripts/Player/PlayerController.cs"
 "Assets/VVScripts/Player/PlayerShipStats.cs"
-"Assets/VVScripts/Stats.cs"
 -langversion:9.0
 
 /deterministic
