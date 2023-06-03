@@ -4,17 +4,17 @@ using UnityEngine;
 public class PlayerCombatManager : MonoBehaviour
 {
     [SerializeField] private CannonBallPass projectileStats;
-    private ShipStats thisShipStats;
+    private PlayerShipStats thisShipStats;
     private float thisShipHealth;
     private float projectileDamage;
     private void Start()
     {
-        thisShipStats = GetComponent<ShipStats>();
+        thisShipStats = GetComponent<PlayerShipStats>();
 
     }
     private void Update()
     {
-        thisShipHealth = thisShipStats.getShipHealth();
+        thisShipHealth = thisShipStats.getPlayerShipHealth();
         projectileDamage = projectileStats.getProjectileDamage();
 
     }
@@ -22,7 +22,7 @@ public class PlayerCombatManager : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("EnemyProjectiles"))
         {
-            thisShipStats.setShipHealth(thisShipHealth - projectileDamage);
+            thisShipStats.setPlayerShipHealth(thisShipHealth - projectileDamage);
 
         }
     }

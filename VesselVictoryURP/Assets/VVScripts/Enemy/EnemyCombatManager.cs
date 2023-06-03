@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyCombatManager : MonoBehaviour
 {
-    private EnemyStats enemyStats;
+    private EnemyShipStats enemyStats;
     [SerializeField] private CannonBallPass projectileStats;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform spawnPoint;
@@ -18,7 +18,7 @@ public class EnemyCombatManager : MonoBehaviour
     private float projectileDamage;
     private void Start()
     {
-        enemyStats = GetComponent<EnemyStats>();
+        enemyStats = GetComponent<EnemyShipStats>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerTransform = player.transform;
         StartCoroutine(DelayedFireEnemyCannon());

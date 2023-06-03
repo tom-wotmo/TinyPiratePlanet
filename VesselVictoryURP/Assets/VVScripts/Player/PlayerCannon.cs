@@ -6,50 +6,47 @@ public class PlayerCannon : MonoBehaviour
     [SerializeField] private Transform rightSpawnPoint;
     [SerializeField] private Transform leftSpawnPoint;
     [SerializeField] private float projectileSpeed = 10f;
+
     private float boatAmmo;
-    private ShipStats ship;
+    private PlayerShipStats ship;
+
     private KeyCode rightCannonFireKey = KeyCode.E;
     private KeyCode leftCannonFireKey = KeyCode.Q;
 
     private void Start()
     {
-        ship = GetComponent<ShipStats>();
+        ship = GetComponent<PlayerShipStats>();
     }
-    //probably merge this into one script with method params
-    public void FireRightCannon()
-    {
-        GameObject spawnedProjectile = Instantiate(projectilePrefab, rightSpawnPoint.position, rightSpawnPoint.rotation);
-        Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
-        projectileRigidBody.velocity = rightSpawnPoint.forward * projectileSpeed;
-       
-    }
-    public void FireLeftCannon()
-    {
-        GameObject spawnedProjectile = Instantiate(projectilePrefab, leftSpawnPoint.position, leftSpawnPoint.rotation);
-        Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
-        projectileRigidBody.velocity = leftSpawnPoint.forward * projectileSpeed;
-    }
-
+    
     void Update()
     {
-        boatAmmo = ship.getShipAmmo();
+        CannonFireControls();
+    }
+    private void FireCannon(Transform firingPoint)
+    {
+        GameObject spawnedProjectile = Instantiate(projectilePrefab, firingPoint.position, firingPoint.rotation);
+        Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
+        projectileRigidBody.velocity = firingPoint.forward * projectileSpeed;
+    }
+    private void CannonFireControls()
+    {
+        boatAmmo = ship.getPlayerShipAmmo();
 
         if (Input.GetKeyDown(rightCannonFireKey) && boatAmmo > 0)
         {
-            FireRightCannon();
-            ship.setShipAmmo(boatAmmo - 1);
+            FireCannon(rightSpawnPoint);
+            ship.setPlayerShipAmmo(boatAmmo - 1);
 
         }
-        if(Input.GetKeyDown(leftCannonFireKey)&& boatAmmo > 0)
+        if (Input.GetKeyDown(leftCannonFireKey) && boatAmmo > 0)
         {
-            FireLeftCannon();
-            ship.setShipAmmo(boatAmmo - 1);
+            FireCannon(leftSpawnPoint);
+            ship.setPlayerShipAmmo(boatAmmo - 1);
         }
-        else if(boatAmmo <= 0)
+        else if (boatAmmo <= 0)
         {
             return;
         }
-      
     }
     
 }
