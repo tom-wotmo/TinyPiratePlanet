@@ -4,13 +4,18 @@ using UnityEngine;
 public class AmmoCrate : MonoBehaviour
 {
     [SerializeField] private float ammoCrateAmmoCapacity = 3f;
-    [SerializeField] private PlayerShipStats ship;
-    
+    [SerializeField] private PlayerShipStats ship; //not finding the ship fix by referencing from a start component
+
+    private float currentShipAmmo;
+    private void Start()
+    {
+        ship = FindObjectOfType<PlayerShipStats>();
+    }
     private void OnTriggerEnter(Collider other)
     {
-        ship.setPlayerShipAmmo(ammoCrateAmmoCapacity);
+        currentShipAmmo = ship.getPlayerShipAmmo();
+        ship.setPlayerShipAmmo(currentShipAmmo + ammoCrateAmmoCapacity);
         Debug.Log(ship.getPlayerShipAmmo());
-
         Destroy(gameObject);
     }
    

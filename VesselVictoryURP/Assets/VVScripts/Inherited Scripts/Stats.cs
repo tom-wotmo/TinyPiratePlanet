@@ -7,7 +7,7 @@ public class Stats : MonoBehaviour
     protected const float DEFAULT_HEALTH = 100f;
     protected const float DEFAULT_MAXIMUM_HEALTH = 100f;
     protected const float DEFAULT_MINIMUM_HEALTH = 0f;
-    protected const int DEFUALT_ID = 0;
+    protected const int DEFAULT_ID = 0;
 
     protected string shipName = "ship";
 

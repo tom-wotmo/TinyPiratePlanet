@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerShipStats  : Stats
 {
-    private float health;
-    private float shipAmmo; 
+    [SerializeField] private float health;
+    [SerializeField] private float shipAmmo = 0f; 
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;
