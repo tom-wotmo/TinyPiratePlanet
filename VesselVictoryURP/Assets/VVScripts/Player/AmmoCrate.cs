@@ -13,10 +13,14 @@ public class AmmoCrate : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        currentShipAmmo = ship.getPlayerShipAmmo();
-        ship.setPlayerShipAmmo(currentShipAmmo + ammoCrateAmmoCapacity);
-        Debug.Log(ship.getPlayerShipAmmo());
-        Destroy(gameObject);
+        if(other.gameObject.layer == LayerMask.NameToLayer("PlayerBoat"))
+        {
+            currentShipAmmo = ship.getPlayerShipAmmo();
+            ship.setPlayerShipAmmo(currentShipAmmo + ammoCrateAmmoCapacity);
+            Debug.Log(ship.getPlayerShipAmmo());
+            Destroy(gameObject);
+        }
+        
     }
    
 }

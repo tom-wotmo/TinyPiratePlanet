@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerShipStats  : Stats
 {
     [SerializeField] private float health;
-    [SerializeField] private float shipAmmo = 0f; 
+    [SerializeField] private float shipAmmo = 0f;
+
+    [SerializeField] private Text ammoUItext;
+
 
     private void Start()
     {
@@ -14,6 +18,7 @@ public class PlayerShipStats  : Stats
     }
     private void Update()
     {
+        ammoUItext.text = shipAmmo.ToString();
         Death();
     }
     public override void Death()
@@ -22,7 +27,6 @@ public class PlayerShipStats  : Stats
         {
             ScoreHandler.Instance.SaveScore();
             MenuFunctionality.Instance.RestartGame();
-            Debug.Log("Player has died");
         }
     }
     public float getPlayerShipAmmo() { return shipAmmo; }

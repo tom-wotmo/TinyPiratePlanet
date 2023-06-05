@@ -13,8 +13,11 @@ public class CannonBallPass : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("EnemyBoat"))
         {
+            Destroy(gameObject);     
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBoat"))
+        {
             Destroy(gameObject);
-            Debug.Log("Cannon Destroyed");
         }
     }
     public float getProjectileDamage() { return projectileDamage; }
