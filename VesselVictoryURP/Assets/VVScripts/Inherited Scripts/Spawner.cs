@@ -9,10 +9,19 @@ public class Spawner : MonoBehaviour
     [SerializeField] protected int maximumPrefabCountInScene = 3;
     [SerializeField] protected float timeToSpawn;
     
-    private int currentPrefabCountInScene = 0;
+    protected int currentPrefabCountInScene = 0;
+
+    public static Spawner Instance;
+    private void Awake()
+    {
+        if (Instance == null)
+        { Instance = this; }
+      
+    }
     private void Update()
     {
-        if (Time.time >= timeToSpawn) { spawnPrefabs(prefabToSpawn); }
+        if (Time.time >= timeToSpawn) 
+        { spawnPrefabs(prefabToSpawn); }
     }
     protected virtual void spawnPrefabs(GameObject prefab)
     {
@@ -20,7 +29,6 @@ public class Spawner : MonoBehaviour
 
         for (int i = 0; currentPrefabCountInScene < maximumPrefabCountInScene; i++)
         {
-
             Vector3 randomPoint = Random.onUnitSphere * worldSphereRadius;
 
             Instantiate(prefab.transform, randomPoint, Quaternion.identity, null);
@@ -29,4 +37,7 @@ public class Spawner : MonoBehaviour
 
         }
     }
+
+    public virtual int getCurrentPrefabCountsInScene()  { return currentPrefabCountInScene; }
+    public virtual void setCurrentPrefabCountsInScene(int i) { currentPrefabCountInScene = i; }
 }

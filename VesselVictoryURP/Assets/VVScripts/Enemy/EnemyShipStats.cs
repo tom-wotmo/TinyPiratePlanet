@@ -6,9 +6,12 @@ public class EnemyShipStats : Stats
 {
     private float health;
     private int id;
+    private int currentPrefabsInScene;
 
     private int currentScore;
     [SerializeField] private int awardedScoreForKill;
+
+    
  
     private void Start()
     {
@@ -26,6 +29,8 @@ public class EnemyShipStats : Stats
         {
             currentScore = ScoreHandler.Instance.getPlayerScore();
             ScoreHandler.Instance.setPlayerScore(currentScore + awardedScoreForKill);
+            currentPrefabsInScene = EnemySpawner.Instance.getCurrentPrefabCountsInScene();
+            EnemySpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
    
             Destroy(this.gameObject);
         }

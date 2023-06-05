@@ -4,7 +4,8 @@ using UnityEngine;
 public class AmmoCrate : MonoBehaviour
 {
     [SerializeField] private float ammoCrateAmmoCapacity = 3f;
-    private PlayerShipStats ship; 
+    private PlayerShipStats ship;
+    private int currentPrefabsInScene;
 
     private float currentShipAmmo;
     private void Start()
@@ -17,10 +18,12 @@ public class AmmoCrate : MonoBehaviour
         {
             currentShipAmmo = ship.getPlayerShipAmmo();
             ship.setPlayerShipAmmo(currentShipAmmo + ammoCrateAmmoCapacity);
-            Debug.Log(ship.getPlayerShipAmmo());
+
+            currentPrefabsInScene = Spawner.Instance.getCurrentPrefabCountsInScene();
+            Spawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
+      
             Destroy(gameObject);
         }
         
-    }
-   
+    } 
 }
