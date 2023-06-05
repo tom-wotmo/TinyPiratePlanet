@@ -10,8 +10,6 @@ public class EnemyCombatManager : MonoBehaviour
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform spawnPoint;
 
-    
-    
     [SerializeField] private float cannonDelayMinF, cannonDelayMaxF; 
 
     private GameObject player;

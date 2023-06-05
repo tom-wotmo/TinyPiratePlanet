@@ -4,7 +4,7 @@ using UnityEngine;
 public class AmmoCrate : MonoBehaviour
 {
     [SerializeField] private float ammoCrateAmmoCapacity = 3f;
-    [SerializeField] private PlayerShipStats ship; 
+    private PlayerShipStats ship; 
 
     private float currentShipAmmo;
     private void Start()

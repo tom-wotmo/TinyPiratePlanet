@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class PlayerCombatManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private CannonBallPass projectileStats;
     private PlayerShipStats thisShipStats;
@@ -10,7 +10,6 @@ public class PlayerCombatManager : MonoBehaviour
     private void Start()
     {
         thisShipStats = GetComponent<PlayerShipStats>();
-
     }
     private void Update()
     {
@@ -26,4 +25,5 @@ public class PlayerCombatManager : MonoBehaviour
 
         }
     }
+ 
 }

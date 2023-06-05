@@ -6,9 +6,22 @@ using UnityEngine.SceneManagement;
 
 public class MenuFunctionality : MonoBehaviour
 {
+    public static MenuFunctionality Instance { get; private set; }
+
     [SerializeField] private GameObject pauseMenu;
-   
+    
     bool isPaused = false;
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     private void Update()
     {
         PressPToPause();
@@ -21,6 +34,7 @@ public class MenuFunctionality : MonoBehaviour
     public void EndGame()
     {
         SceneManager.LoadScene(SceneManager.GetSceneAt(1).buildIndex);
+        ScoreHandler.Instance.SaveScore();
     }
     public void ResumeGame()
     {

@@ -6,6 +6,7 @@ public class PlayerShipStats  : Stats
 {
     [SerializeField] private float health;
     [SerializeField] private float shipAmmo = 0f; 
+
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;
@@ -19,6 +20,8 @@ public class PlayerShipStats  : Stats
     {
         if (health <= DEFAULT_MINIMUM_HEALTH)
         {
+            ScoreHandler.Instance.SaveScore();
+            MenuFunctionality.Instance.RestartGame();
             Debug.Log("Player has died");
         }
     }
