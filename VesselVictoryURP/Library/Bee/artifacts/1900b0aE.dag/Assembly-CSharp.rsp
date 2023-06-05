@@ -371,6 +371,7 @@
 "Assets/VVScripts/Player/PlayerCombatManager.cs"
 "Assets/VVScripts/Player/PlayerController.cs"
 "Assets/VVScripts/Player/PlayerShipStats.cs"
+"Assets/VVScripts/UIUX Functions/MenuFunctionality.cs"
 -langversion:9.0
 
 /deterministic
