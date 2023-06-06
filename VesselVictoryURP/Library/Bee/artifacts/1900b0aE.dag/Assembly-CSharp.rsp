@@ -406,6 +406,7 @@
 "Assets/VVScripts/Player/PlayerController.cs"
 "Assets/VVScripts/Player/PlayerManager.cs"
 "Assets/VVScripts/Player/PlayerShipStats.cs"
+"Assets/VVScripts/UIUX Functions/HealthBarFunctionality.cs"
 "Assets/VVScripts/UIUX Functions/MenuFunctionality.cs"
 -langversion:9.0
 

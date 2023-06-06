@@ -15,7 +15,7 @@ C:/Users/wotma/OneDrive/Documents/GitHub/RumRumble/VesselVictoryURP
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-52174
+51414
 Successfully changed project path to: C:/Users/wotma/OneDrive/Documents/GitHub/RumRumble/VesselVictoryURP
 C:/Users/wotma/OneDrive/Documents/GitHub/RumRumble/VesselVictoryURP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/wotma/OneDrive/Documents/GitHub/RumRumble/VesselVictoryURP
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25044] Host "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 1505320229 [EditorId] 1505320229 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4FE6QCV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26024] Host "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 1091105286 [EditorId] 1091105286 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4FE6QCV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25044] Host "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 1505320229 [EditorId] 1505320229 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4FE6QCV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26024] Host "[IP] 172.20.10.3 [Port] 0 [Flags] 2 [Guid] 1091105286 [EditorId] 1091105286 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4FE6QCV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 91.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006827 seconds.
+Registered in 0.007405 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
+- Completed reload, in  0.551 seconds
 Domain Reload Profiling:
-	ReloadAssembly (829ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006675 seconds.
+Registered in 0.006894 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 82.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.004 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (814ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (212ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (520ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (446ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4736 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5198.
 Memory consumption went from 190.5 MB to 189.7 MB.
-Total: 3.817100 ms (FindLiveObjects: 0.559300 ms CreateObjectMapping: 0.148500 ms MarkObjects: 2.664200 ms  DeleteObjects: 0.443800 ms)
+Total: 3.727900 ms (FindLiveObjects: 0.479500 ms CreateObjectMapping: 0.124300 ms MarkObjects: 2.716500 ms  DeleteObjects: 0.406300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,85 +162,509 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005559 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
-Domain Reload Profiling:
-	ReloadAssembly (896ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (686ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (321ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5201.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 3.243700 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.400400 ms  DeleteObjects: 0.313700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 88422.909848 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat
+  artifactKey: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a5c56b3764b24598934b7493ad3858') in 0.161651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunrise_Cubemap.mat
+  artifactKey: Guid(bdfc475e919710248bf14d75643fefd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Sunrise_Cubemap.mat using Guid(bdfc475e919710248bf14d75643fefd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5d1ae3b751dbf047e449462996f2e3') in 0.168922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.mat
+  artifactKey: Guid(8dd2f17b6e3f8174390967bc55ead836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.mat using Guid(8dd2f17b6e3f8174390967bc55ead836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2478063c836d7b91419c3f6ea66d078') in 0.023768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat
+  artifactKey: Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.mat using Guid(d3823126980dd98479f7761e6d47338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fd7b0c276050bde37eda14fa18b898') in 0.024686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat
+  artifactKey: Guid(24d76106ebc1bd947a3fed862f899b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat using Guid(24d76106ebc1bd947a3fed862f899b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1485b8be48fc459c3228c1e063a412') in 0.028609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat
+  artifactKey: Guid(b1026180dc7c2da46ae84254ddc371da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Snowy_Cubemap.mat using Guid(b1026180dc7c2da46ae84254ddc371da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec849af0f2b4552cbe116d2f5a78e63c') in 0.052927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat
+  artifactKey: Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat using Guid(aed657681c6812845bb7736c343b5e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b143d8a3113ee9cec967a0faee02d45') in 0.023897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Moonless_Cubemap.mat
+  artifactKey: Guid(53d73dd4f99c4c84d95a657e638c4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Night_Moonless_Cubemap.mat using Guid(53d73dd4f99c4c84d95a657e638c4553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f9cae00cfec516c9f1695c80d8974b') in 0.055561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat
+  artifactKey: Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Night_Cubemap.mat using Guid(c81599feeec05d14fbf3dd64b71864c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a457d81bae2a1999b2431f0ec5209c') in 0.053316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityStore[]/QuickOutline/Resources/Materials/OutlineFill.mat
+  artifactKey: Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/QuickOutline/Resources/Materials/OutlineFill.mat using Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a646e769d473be0d1b7a0cb3d0ee7e4d') in 0.026417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat
+  artifactKey: Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat using Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaad1f82f3c493847905bdf9b6328c4') in 0.027087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat
+  artifactKey: Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat using Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87a992ff04aa947fca309ab696e975f') in 0.024369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore[]/Pirate_Ship_Pack/Models/Materials/medium_ship_d2.mat
+  artifactKey: Guid(31c6e969714f4e04e8d725e43366535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Pirate_Ship_Pack/Models/Materials/medium_ship_d2.mat using Guid(31c6e969714f4e04e8d725e43366535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6177833d9f647d5bfd5047e8503cc1') in 0.022550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Stylized Water/Materials/Stylized Water 1.mat
+  artifactKey: Guid(2f280c117f7574253a4a2adca2bf0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Stylized Water/Materials/Stylized Water 1.mat using Guid(2f280c117f7574253a4a2adca2bf0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c6705d2a0cfab4f144374ed75d1733') in 0.027871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityStore[]/Pirate_Ship_Pack/Models/Materials/medium_ship_d3.mat
+  artifactKey: Guid(09caf7060784d08468a1ca903b09e814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Pirate_Ship_Pack/Models/Materials/medium_ship_d3.mat using Guid(09caf7060784d08468a1ca903b09e814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1927dd5063b52247c251436a2431b') in 0.024032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat
+  artifactKey: Guid(be04847ecd3774d468b7a7fffb971b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Rainy_Cubemap.mat using Guid(be04847ecd3774d468b7a7fffb971b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a644507ccc9eb67d2117c7812e0deae') in 0.054125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunset_Cubemap.mat
+  artifactKey: Guid(9153b2dbef5d0b0428e60c092d1b4a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/FS017_Sunset_Cubemap.mat using Guid(9153b2dbef5d0b0428e60c092d1b4a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e63886733ec59f3a938d40a4276f34d') in 0.050021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Rainy_Cubemap.mat
+  artifactKey: Guid(85bdd529a7fbcc344b810462de0c2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/FS003_Rainy_Cubemap.mat using Guid(85bdd529a7fbcc344b810462de0c2b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f88b339a9053750850d032593242670') in 0.049929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.105481 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.png
+  artifactKey: Guid(a12ea62fd952d57439f49b6287da4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02_Sunless.png using Guid(a12ea62fd952d57439f49b6287da4762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b73db9a8b01ffe501725e4c3185d1a9') in 0.039528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png
+  artifactKey: Guid(0e981c5218a661d479182696be5f084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png using Guid(0e981c5218a661d479182696be5f084f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecaf052dc3bf41326cb023eabb325b8') in 0.026094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201433 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png
+  artifactKey: Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png using Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43510922933840d71f22530e8078bea3') in 0.026714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011745 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png
+  artifactKey: Guid(6b1d9786203d21246bc448213b0f9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.png using Guid(6b1d9786203d21246bc448213b0f9aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5cb4c3739ce6ef9d22df1e298a5bae0') in 0.027737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.236408 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap.cubemap
+  artifactKey: Guid(ebaa0716f467b2e46ad598de33148cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Cubemap.cubemap using Guid(ebaa0716f467b2e46ad598de33148cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0311d558915c2735a53b38976419eea0') in 0.241113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045212 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_down.png
+  artifactKey: Guid(53400c1bbe9952c4e8874222bea3d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Day_Sunless_Cubemap_down.png using Guid(53400c1bbe9952c4e8874222bea3d17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df58238dd4cb1b97a864eb5259e7e731') in 0.014149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243510 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png
+  artifactKey: Guid(99f1ee3fa7b9cbd4c93ad9cf81a902cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_down.png using Guid(99f1ee3fa7b9cbd4c93ad9cf81a902cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89552634c59762286618cfb19ea6dab2') in 0.011849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014103 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_right.png
+  artifactKey: Guid(c75a63ebdcee1db45b07756a3a2f2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Cubemap_right.png using Guid(c75a63ebdcee1db45b07756a3a2f2350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b32b089e1b3077bb23b77be435679') in 0.012409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.249770 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png
+  artifactKey: Guid(4681e222d05fd4347b8525f407bb62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Night_Moonless_Cubemap_front.png using Guid(4681e222d05fd4347b8525f407bb62b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02a5f17f7c5770724413c5cea16de0c') in 0.014280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037673 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap.cubemap
+  artifactKey: Guid(b30035c21f53ad04981ddd751ed608a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Rainy_Cubemap.cubemap using Guid(b30035c21f53ad04981ddd751ed608a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87619748d7c751ec8d482c44ce316336') in 0.227728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035881 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap
+  artifactKey: Guid(995258c42c653784bbcdeda61e24002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Snowy_Cubemap.cubemap using Guid(995258c42c653784bbcdeda61e24002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bf38ebb1fc9fed1bd1d85bb2d0360d') in 0.219374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.505758 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap.cubemap
+  artifactKey: Guid(a068c526daeca0c4ea9bdbec9a251bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS002/Images/FS002_Sunrise_Cubemap.cubemap using Guid(a068c526daeca0c4ea9bdbec9a251bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f845feb7505844e0d8d7ad803ef84e') in 0.232759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.png
+  artifactKey: Guid(846cce7d90ad21b4b80fcb937193081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunset.png using Guid(846cce7d90ad21b4b80fcb937193081e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec56d6b0d2c8f145baf30b0a1d4c8349') in 0.011532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_right.png
+  artifactKey: Guid(343343b421320874cb24b5fbd9336cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap_right.png using Guid(343343b421320874cb24b5fbd9336cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587096d56c463362b6ca239767c10e51') in 0.014834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_front.png
+  artifactKey: Guid(7bcf5c7e04de167409e5b6afd758bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_front.png using Guid(7bcf5c7e04de167409e5b6afd758bb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19c734ef31687715fd6fd131f9b86ca') in 0.018159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_back.png
+  artifactKey: Guid(a338e8b256622b94d8c8503e7d7091b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_back.png using Guid(a338e8b256622b94d8c8503e7d7091b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d695b34e97c82dc3a267441b9ae600') in 0.014242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_back.png
+  artifactKey: Guid(82bb8f9a43f78c149ba308d692c80ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_back.png using Guid(82bb8f9a43f78c149ba308d692c80ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568264522cbd1ca0d13c66ddb1f3383e') in 0.013253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_back.png
+  artifactKey: Guid(6a627b1974e621b4d89e686530a0e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_back.png using Guid(6a627b1974e621b4d89e686530a0e0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85281ec748ba52201decd8711c6016a') in 0.014381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_up.png
+  artifactKey: Guid(a57336ddba2109247a7fed12c7449da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_up.png using Guid(a57336ddba2109247a7fed12c7449da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f91316e9fe60e1d17e312d561cef183') in 0.015002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap.cubemap
+  artifactKey: Guid(8acbf1c188095b44d8c979cb34200fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap.cubemap using Guid(8acbf1c188095b44d8c979cb34200fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a092e1a9b87f03dfb52d71c66b41651c') in 0.280215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_right.png
+  artifactKey: Guid(06d134190fa2eb846bea51f451f1787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Day_Sunless_Cubemap_right.png using Guid(06d134190fa2eb846bea51f451f1787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d9846abae6548c63e0de8dcb295e9f') in 0.014676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap.cubemap
+  artifactKey: Guid(0698dbe339272fb429c6722ca4423bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap.cubemap using Guid(0698dbe339272fb429c6722ca4423bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c71db23b9d7f0169a18b7d45459b99a') in 0.240250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png
+  artifactKey: Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunset.png using Guid(c9c7d456c59dc784b93f9c65f163e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b6076928dd8c1603c19bc4b53e2283') in 0.010519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap.cubemap
+  artifactKey: Guid(c41e0db1e4f41b64e9c1540660bc9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap.cubemap using Guid(c41e0db1e4f41b64e9c1540660bc9036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370a839095583f377778619040b78a18') in 0.217547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_left.png
+  artifactKey: Guid(2f0be5e2b05a3ca4a9d559e1bb41da62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_left.png using Guid(2f0be5e2b05a3ca4a9d559e1bb41da62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c73038ff9a7c0dfc1d06488c788084') in 0.011914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.png
+  artifactKey: Guid(89878140665978f4f9f27f55a61fb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.png using Guid(89878140665978f4f9f27f55a61fb12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd20d6673c0125c8cd623c2f11b5adf2') in 0.010893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_up.png
+  artifactKey: Guid(5f5a9db8167fcea43a8ee471b4a6045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_up.png using Guid(5f5a9db8167fcea43a8ee471b4a6045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e68afc26f52426e4adfca8f5704d6ac') in 0.011947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UnityStore[]/Stylized Water/Textures/LargeWaves.TGA
+  artifactKey: Guid(bad5be27aa106412c96705a81ce20956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Stylized Water/Textures/LargeWaves.TGA using Guid(bad5be27aa106412c96705a81ce20956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e95f03d212f8c0f9f23898208d2ae4') in 0.023277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_right.png
+  artifactKey: Guid(f88176caefa96304eb645c1c278c20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunset_Cubemap_right.png using Guid(f88176caefa96304eb645c1c278c20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d4f72ff98d5cc83e3b9a95da0f6b15') in 0.012098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.png
+  artifactKey: Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS013/FS013_Sunrise.png using Guid(99bb9346a54a1ef45b3d086ccba8cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea2fc52befe3e92deec192068e146c') in 0.011979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_up.png
+  artifactKey: Guid(31372d00a63455041a771057c560a152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Night_Cubemap_up.png using Guid(31372d00a63455041a771057c560a152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338c3ea7852b558af18491318ea9672d') in 0.012239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png
+  artifactKey: Guid(0d371d958e6fe89419bfb8f6a4cf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_up.png using Guid(0d371d958e6fe89419bfb8f6a4cf5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58eb56ddd474c17d7566d61612a991b0') in 0.012849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_front.png
+  artifactKey: Guid(19eeb8f9a4207174ebc06b0ca885c1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_front.png using Guid(19eeb8f9a4207174ebc06b0ca885c1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631378e3e8b21e2546ccf1a4a26732f0') in 0.011730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721f77c4b235649becaaeb978af8a900') in 0.019353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_down.png
+  artifactKey: Guid(e0ba42174e4a6494594f41b2d8228d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Night_Cubemap_down.png using Guid(e0ba42174e4a6494594f41b2d8228d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c6f2b26ec7026cef52c946e9791a5b') in 0.011997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_left.png
+  artifactKey: Guid(52d0574b33ad80642b582b6b905a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_left.png using Guid(52d0574b33ad80642b582b6b905a5931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d59b3cd20c77ac98d28317d463ad15') in 0.013021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_left.png
+  artifactKey: Guid(a9256522eb37d134a8e591e1faeb00b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_left.png using Guid(a9256522eb37d134a8e591e1faeb00b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412ed108698ee354b372b46b9d2cf1ca') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_front.png
+  artifactKey: Guid(077e264c78cc46d49923b5aff986242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Cubemap_front.png using Guid(077e264c78cc46d49923b5aff986242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a66a51898d784eb3ec412bd4f8b3e1') in 0.012190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_front.png
+  artifactKey: Guid(b0d6abfddcb6a8541a661c6dfd16b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_front.png using Guid(b0d6abfddcb6a8541a661c6dfd16b6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c7ce9c2ab735435bc142b73b92b212') in 0.011619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_front.png
+  artifactKey: Guid(d15a4dba1843ace47a183b0b039dab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_front.png using Guid(d15a4dba1843ace47a183b0b039dab58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e9dfbb97246ee1fbcdcc18d5361735b') in 0.011379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png
+  artifactKey: Guid(97c83ef8555216848ba4f98a7496a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS003/FS003_Day.png using Guid(97c83ef8555216848ba4f98a7496a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951e4fad774fd6adcedbb1d9707a8ca0') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_up.png
+  artifactKey: Guid(68ed1953a000a7744adfde23d5aba737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_up.png using Guid(68ed1953a000a7744adfde23d5aba737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45aa79a16623a37ff5ac20d62b9e85') in 0.012207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png
+  artifactKey: Guid(aa500d95bc3879d4c82b1763ee51f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_down.png using Guid(aa500d95bc3879d4c82b1763ee51f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943c96233fe9dafea012a3e3011e9bd6') in 0.011470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_down.png
+  artifactKey: Guid(613ad9ff0287a7c4d86a5d958e4313b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Rainy_Cubemap_down.png using Guid(613ad9ff0287a7c4d86a5d958e4313b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9011448635f7cd3c5630c260ae359790') in 0.010887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_front.png
+  artifactKey: Guid(c3548036d9c17034db3cbf768d13219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunset_Cubemap_front.png using Guid(c3548036d9c17034db3cbf768d13219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9055d29c033aa8f1dbd43ba48d3f40d9') in 0.012779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png
+  artifactKey: Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png using Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cd390f10fc9baffbd881e2cd72699f') in 0.015842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_down.png
+  artifactKey: Guid(53e565877d91dfb40a84754ec90bc448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Snowy_Cubemap_down.png using Guid(53e565877d91dfb40a84754ec90bc448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b958c7b641407d2d755f10eb37cc67e') in 0.012315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_front.png
+  artifactKey: Guid(cba7f06c484374d4294367a2f24ef4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Night_Moonless_Cubemap_front.png using Guid(cba7f06c484374d4294367a2f24ef4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301d62cc94b1ffdb91981fc56a29851d') in 0.012462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap.cubemap
+  artifactKey: Guid(a9bd8d292f8929a478a9836caf48c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Rainy_Cubemap.cubemap using Guid(a9bd8d292f8929a478a9836caf48c3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98bac33314e818fbae5b477474cb8e7') in 0.246368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_left.png
+  artifactKey: Guid(014727d82348f1a4f8175752fb91f720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_left.png using Guid(014727d82348f1a4f8175752fb91f720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbae5ff94bc97644dc4391bcacd3008c') in 0.011964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_right.png
+  artifactKey: Guid(d29681cd30115eb43932f180434489fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_right.png using Guid(d29681cd30115eb43932f180434489fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7795109e2c6796029ac9d78e08e924') in 0.012734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap
+  artifactKey: Guid(467e99ebe4fb3364fb42faadeb1d8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap.cubemap using Guid(467e99ebe4fb3364fb42faadeb1d8ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8192e02ed11d8b0f3561f1575c2fa746') in 0.242673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_right.png
+  artifactKey: Guid(30a536d4e8ace7f48af4f6b10160d04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Sunrise_Cubemap_right.png using Guid(30a536d4e8ace7f48af4f6b10160d04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1243afb9511e6f175e5f6d4d75118bf') in 0.011545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.png
+  artifactKey: Guid(32cef6a96e79c904387df9d92260fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.png using Guid(32cef6a96e79c904387df9d92260fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a896d847763941403643ad6d5d5ff9d') in 0.011805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_back.png
+  artifactKey: Guid(8328d7c40f1d37140b95d0d9f4d7111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Sunrise_Cubemap_back.png using Guid(8328d7c40f1d37140b95d0d9f4d7111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817c8c2d628d7ef3cf1f5f536ed79ff8') in 0.013145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_front.png
+  artifactKey: Guid(21ee7f7028576cc45a7362b1eee364f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Day_Sunless_Cubemap_front.png using Guid(21ee7f7028576cc45a7362b1eee364f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e378b2f66c732689dea9d7fcc15520') in 0.012975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_left.png
+  artifactKey: Guid(fe6393c04bf937a4aad6c22ba34b3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS003/Images/FS003_Sunrise_Cubemap_left.png using Guid(fe6393c04bf937a4aad6c22ba34b3c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df3e774f38157e19ddc395afd2d553') in 0.012454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f9c46d1f0c2ad61704f8a333b1f7bb') in 0.019672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_back.png
+  artifactKey: Guid(93e9efc68eb3d904f94f90521df25bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap_back.png using Guid(93e9efc68eb3d904f94f90521df25bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31c7ec2b20677385910c8aa09620a4d') in 0.011843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png
+  artifactKey: Guid(c2bfb394ae4aebc41bea4ea526108a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Snowy_Cubemap_left.png using Guid(c2bfb394ae4aebc41bea4ea526108a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e96abeca13c5c796c28d7dd123d58d') in 0.011250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_up.png
+  artifactKey: Guid(d6448ae109ff2624191009c1720325a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_up.png using Guid(d6448ae109ff2624191009c1720325a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964516768fb10d910a5025f892a4223c') in 0.012779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap.cubemap
+  artifactKey: Guid(ba528736eb291aa4d9c9430b2db9788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityStore[]/Fantasy Skybox FREE/Cubemaps/FS017/Images/FS017_Snowy_Cubemap.cubemap using Guid(ba528736eb291aa4d9c9430b2db9788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462819f5218ced490911f539a59913a2') in 0.226980 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005477 seconds.
+Registered in 0.006110 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (623ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
+			SetupTypeCache (196ms)
 			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (34ms)
 			SetupLoadedEditorAssemblies (291ms)
@@ -248,76 +672,20 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5204.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 3.071700 ms (FindLiveObjects: 0.377700 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.212400 ms  DeleteObjects: 0.371800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005916 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
-Domain Reload Profiling:
-	ReloadAssembly (839ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (629ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (297ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadAttributes (152ms)
 				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5207.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 2.855400 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.108300 ms  DeleteObjects: 0.300600 ms)
+Unloading 4645 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5253.
+Memory consumption went from 185.8 MB to 185.1 MB.
+Total: 2.982200 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.107000 ms MarkObjects: 2.211000 ms  DeleteObjects: 0.307900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -329,1079 +697,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005761 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Domain Reload Profiling:
-	ReloadAssembly (896ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (322ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (167ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5210.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 3.593000 ms (FindLiveObjects: 0.377500 ms CreateObjectMapping: 0.109300 ms MarkObjects: 2.762600 ms  DeleteObjects: 0.341800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005825 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
-Domain Reload Profiling:
-	ReloadAssembly (930ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (709ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5213.
-Memory consumption went from 181.0 MB to 180.3 MB.
-Total: 3.319300 ms (FindLiveObjects: 0.413000 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.358800 ms  DeleteObjects: 0.431800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005525 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Domain Reload Profiling:
-	ReloadAssembly (937ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5216.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 2.963800 ms (FindLiveObjects: 0.362300 ms CreateObjectMapping: 0.105500 ms MarkObjects: 2.182400 ms  DeleteObjects: 0.313000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005638 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
-Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (712ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5219.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 2.947900 ms (FindLiveObjects: 0.389700 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.146800 ms  DeleteObjects: 0.304100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005685 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
-Domain Reload Profiling:
-	ReloadAssembly (913ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (712ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (214ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5222.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 2.936800 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.106400 ms MarkObjects: 2.163300 ms  DeleteObjects: 0.311800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006899 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.882 seconds
-Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (678ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (173ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5225.
-Memory consumption went from 181.2 MB to 180.5 MB.
-Total: 3.329300 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.398700 ms  DeleteObjects: 0.374500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 22932.437364 seconds.
-  path: Assets/Prefabs/Pickups/AmmoBox.prefab
-  artifactKey: Guid(4a64e1f13ff9cc04c8b9fdd75fd4bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pickups/AmmoBox.prefab using Guid(4a64e1f13ff9cc04c8b9fdd75fd4bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba1d8c5a31fbe20970bea7d098946a9') in 0.097904 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006561 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (926ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (719ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5236.
-Memory consumption went from 185.2 MB to 184.5 MB.
-Total: 3.046900 ms (FindLiveObjects: 0.377300 ms CreateObjectMapping: 0.111600 ms MarkObjects: 2.216900 ms  DeleteObjects: 0.340300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 33.769155 seconds.
-  path: Assets/Prefabs/Pickups/AmmoBox.prefab
-  artifactKey: Guid(4a64e1f13ff9cc04c8b9fdd75fd4bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pickups/AmmoBox.prefab using Guid(4a64e1f13ff9cc04c8b9fdd75fd4bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7672f1b03aa0a59b4bde9de2224ab6d') in 0.062210 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005520 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
-Domain Reload Profiling:
-	ReloadAssembly (927ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (729ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (347ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5239.
-Memory consumption went from 185.4 MB to 184.7 MB.
-Total: 2.995800 ms (FindLiveObjects: 0.344100 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.237600 ms  DeleteObjects: 0.304800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005418 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
-Domain Reload Profiling:
-	ReloadAssembly (928ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5242.
-Memory consumption went from 185.4 MB to 184.7 MB.
-Total: 3.253400 ms (FindLiveObjects: 0.400400 ms CreateObjectMapping: 0.119900 ms MarkObjects: 2.357500 ms  DeleteObjects: 0.374500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006599 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
-Domain Reload Profiling:
-	ReloadAssembly (949ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (230ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (354ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5245.
-Memory consumption went from 185.4 MB to 184.7 MB.
-Total: 3.144700 ms (FindLiveObjects: 0.402800 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.304000 ms  DeleteObjects: 0.323400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005960 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
-Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (121ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (637ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5248.
-Memory consumption went from 185.4 MB to 184.7 MB.
-Total: 2.966600 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.108600 ms MarkObjects: 2.199700 ms  DeleteObjects: 0.311000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005496 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Domain Reload Profiling:
-	ReloadAssembly (879ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (672ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (326ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5251.
-Memory consumption went from 185.2 MB to 184.5 MB.
-Total: 2.984100 ms (FindLiveObjects: 0.358100 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.191100 ms  DeleteObjects: 0.327000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006665 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
-Domain Reload Profiling:
-	ReloadAssembly (888ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (681ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5254.
-Memory consumption went from 185.4 MB to 184.7 MB.
-Total: 2.936500 ms (FindLiveObjects: 0.362800 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.146600 ms  DeleteObjects: 0.319900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006309 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
-Domain Reload Profiling:
-	ReloadAssembly (825ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (615ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (290ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5257.
-Memory consumption went from 185.4 MB to 184.7 MB.
-Total: 3.147900 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.112200 ms MarkObjects: 2.283500 ms  DeleteObjects: 0.351500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005608 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (694ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5260.
-Memory consumption went from 185.5 MB to 184.8 MB.
-Total: 3.254000 ms (FindLiveObjects: 0.379100 ms CreateObjectMapping: 0.111300 ms MarkObjects: 2.435000 ms  DeleteObjects: 0.327400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007506 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (742ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (344ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5263.
-Memory consumption went from 185.5 MB to 184.8 MB.
-Total: 2.922600 ms (FindLiveObjects: 0.375700 ms CreateObjectMapping: 0.110900 ms MarkObjects: 2.121700 ms  DeleteObjects: 0.313500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006300 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
-Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (337ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5266.
-Memory consumption went from 185.3 MB to 184.6 MB.
-Total: 3.011100 ms (FindLiveObjects: 0.377100 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.147800 ms  DeleteObjects: 0.372500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007200 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
-Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (636ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (297ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5269.
-Memory consumption went from 185.5 MB to 184.8 MB.
-Total: 3.000800 ms (FindLiveObjects: 0.384900 ms CreateObjectMapping: 0.127400 ms MarkObjects: 2.162000 ms  DeleteObjects: 0.325300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005549 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\wotma\OneDrive\Documents\GitHub\RumRumble\VesselVictoryURP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
-Domain Reload Profiling:
-	ReloadAssembly (897ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (695ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (340ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4644 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 5272.
-Memory consumption went from 185.5 MB to 184.8 MB.
-Total: 3.233200 ms (FindLiveObjects: 0.388900 ms CreateObjectMapping: 0.111100 ms MarkObjects: 2.397000 ms  DeleteObjects: 0.335300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.

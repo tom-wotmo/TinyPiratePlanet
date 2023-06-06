@@ -34,7 +34,7 @@ public class MenuFunctionality : MonoBehaviour
     public void EndGame()
     {
         SceneManager.LoadScene(SceneManager.GetSceneAt(1).buildIndex);
-        ScoreHandler.Instance.SaveScore();
+        ScoreHandler.Instance.UpdateHighScore();
     }
     public void ResumeGame()
     {

@@ -7,7 +7,6 @@ public class PlayerShipStats  : Stats
 {
     [SerializeField] private float health;
     [SerializeField] private float shipAmmo = 0f;
-
     [SerializeField] private Text ammoUItext;
 
 
@@ -25,7 +24,7 @@ public class PlayerShipStats  : Stats
     {
         if (health <= DEFAULT_MINIMUM_HEALTH)
         {
-            ScoreHandler.Instance.SaveScore();
+            ScoreHandler.Instance.UpdateHighScore();
             MenuFunctionality.Instance.RestartGame();
         }
     }

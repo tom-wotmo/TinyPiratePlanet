@@ -6,10 +6,14 @@ using UnityEngine.UI;
 public class ScoreHandler : MonoBehaviour
 {
     public static ScoreHandler Instance { get; private set; }
+
     [SerializeField] private Text scoreUItext;
+    [SerializeField] private Text highScoreTextLabel;
 
     private const int DEFAULT_START_PLAYER_SCORE = 0;
     private int playerScore;
+    private int highScore;
+
     private void Awake()
     {
         if (Instance == null)
@@ -20,15 +24,27 @@ public class ScoreHandler : MonoBehaviour
     private void Start()
     {
         playerScore = DEFAULT_START_PLAYER_SCORE;
+        highScore = PlayerPrefs.GetInt("PLAYER_HIGH_SCORE", 0);
     }
     private void Update()
     {
         scoreUItext.text = playerScore.ToString();
+        highScoreTextLabel.text = highScore.ToString();
         scoreAchievement();
+        
     }
-    public void SaveScore()
+
+    public void UpdateHighScore()
     {
-        PlayerPrefs.SetFloat("Score", playerScore);
+        if(playerScore > highScore)
+        {
+            SaveScore();
+
+        }
+    }
+    private void SaveScore()
+    {
+        PlayerPrefs.SetInt("PLAYER_HIGH_SCORE", playerScore);
         PlayerPrefs.Save();
     }
     private void scoreAchievement() 

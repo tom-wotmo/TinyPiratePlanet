@@ -16,7 +16,7 @@ public class EnemySpawner : Spawner
     protected override void spawnPrefabs(GameObject prefab)
     {
         float worldSphereRadius = worldSphere.transform.localScale.x / 2f;
-       
+
         for (int i = 0; currentPrefabCountInScene < maximumPrefabCountInScene; i++)
         {
             Vector3 randomPoint = Random.onUnitSphere * worldSphereRadius;
@@ -27,10 +27,6 @@ public class EnemySpawner : Spawner
 
         }
     }
-    public override int getCurrentPrefabCountsInScene() { return currentPrefabCountInScene; }
-    public override void setCurrentPrefabCountsInScene(int i) { currentPrefabCountInScene = i; }
-
+   
 }
   
- 
-
