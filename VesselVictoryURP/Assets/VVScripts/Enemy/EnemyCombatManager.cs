@@ -9,17 +9,18 @@ public class EnemyCombatManager : MonoBehaviour
     [SerializeField] private CannonBallPass projectileStats;
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform spawnPoint;
-
-    [SerializeField] private float cannonDelayMinF, cannonDelayMaxF; 
+    [SerializeField] private float cannonDelayMinF, cannonDelayMaxF;
+    [SerializeField] public GameObject collisionFX;
 
     private GameObject player;
     private Transform playerTransform;
 
-    private const float DEFAULT_PROJECTILE_SPEED = 3f;
-    private const float DEFAULT_CANNON_RANGE = 10f;
+    private const float DEFAULT_PROJECTILE_SPEED = 2.5f;
+    private const float DEFAULT_CANNON_RANGE = 8f;
 
     private float thisShipHealth;
     private float projectileDamage;
+    private float cannonOffset = 0.8f;
     private void Start()
     {
         enemyStats = GetComponent<EnemyShipStats>();
@@ -32,10 +33,23 @@ public class EnemyCombatManager : MonoBehaviour
         thisShipHealth = enemyStats.getEnemyShipHealth();
         projectileDamage = projectileStats.getProjectileDamage();
     }
+    private Vector3 CannonFireOffset(Vector3 baseVector)
+    {
+        float offsetX = Random.Range(-cannonOffset, cannonOffset);
+        float offsetZ = Random.Range(-cannonOffset, cannonOffset);
+
+        Vector3 offsetPosition = new Vector3(offsetX, offsetZ);
+        Vector3 finalPosition = baseVector + offsetPosition;
+
+        return finalPosition;
+    }
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("PlayerProjectiles"))
-        { enemyStats.setEnemyShipHealth(thisShipHealth - projectileDamage);}
+        {
+            Instantiate(collisionFX, transform.position, transform.rotation);
+            enemyStats.setEnemyShipHealth(thisShipHealth - projectileDamage);
+        }  
     }
     private void FireEnemyCannon()
     {
@@ -43,11 +57,14 @@ public class EnemyCombatManager : MonoBehaviour
 
         if (distanceFromPlayer <= DEFAULT_CANNON_RANGE)
         {
-            Vector3 playerPosition = (playerTransform.position - spawnPoint.position).normalized;
+            Vector3 currentPlayerPosition = (playerTransform.position - spawnPoint.position).normalized;
+            Vector3 playerOffsetPosition = CannonFireOffset(currentPlayerPosition);
+
             GameObject spawnedProjectile = Instantiate(projectilePrefab, spawnPoint.position, spawnPoint.rotation);
             Rigidbody projectileRigidBody = spawnedProjectile.GetComponent<Rigidbody>();
+
             spawnPoint.LookAt(playerTransform);
-            projectileRigidBody.velocity = playerPosition * DEFAULT_PROJECTILE_SPEED;
+            projectileRigidBody.velocity = (playerOffsetPosition) * DEFAULT_PROJECTILE_SPEED;
         }
     }
     //Patchwork bug fix to stop all cannons from firing upon 

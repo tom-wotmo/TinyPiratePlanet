@@ -426,7 +426,7 @@ Transform:
   - {fileID: 1342682304}
   - {fileID: 246938080}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246938079
 GameObject:
@@ -823,7 +823,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &763570178
 MonoBehaviour:
@@ -2055,7 +2055,7 @@ GameObject:
   - component: {fileID: 1357129511}
   - component: {fileID: 1357129510}
   - component: {fileID: 1357129514}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: IslandPlaceholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2489,7 +2489,7 @@ Transform:
   - {fileID: 4425256079426539}
   - {fileID: 3140298282738158600}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572328917
 GameObject:
@@ -2557,7 +2557,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1627254478
 GameObject:
@@ -2686,7 +2686,7 @@ Transform:
   - {fileID: 863885848}
   - {fileID: 1955902594}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1768309060
 GameObject:
@@ -2915,7 +2915,7 @@ Transform:
   - {fileID: 1012959776}
   - {fileID: 856773694}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1816490137
 BoxCollider:
@@ -2928,8 +2928,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.261475, z: 1.152795}
-  m_Center: {x: 0, y: 0.53100324, z: -0.016583595}
+  m_Size: {x: 1, y: 1.9589456, z: 1.4289203}
+  m_Center: {x: 0, y: 0.87973857, z: -0.009786934}
 --- !u!54 &1816490138
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2973,7 +2973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  shipAmmo: 0
+  shipAmmo: 100
   ammoUItext: {fileID: 647347209}
 --- !u!114 &1816490141
 MonoBehaviour:
@@ -3227,7 +3227,7 @@ GameObject:
   - component: {fileID: 33467314772040615}
   - component: {fileID: 23667933910508705}
   - component: {fileID: 1734038381}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: pirate_boat_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3245,7 +3245,7 @@ GameObject:
   - component: {fileID: 4425256079426539}
   - component: {fileID: 4425256079426541}
   - component: {fileID: 4425256079426540}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallBoat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3359,6 +3359,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278230349062015}
   m_Mesh: {fileID: 6699308218300607361, guid: e174a08d577359c44bd7930fac541c9f, type: 3}
+--- !u!1001 &93425495146613860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.103874
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.1131382
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.849762
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.46612668
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.051995117
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.24068016
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 50.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -29.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 105563794981031446, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -45.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 106989689192828072, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
+      propertyPath: m_Name
+      value: CannonWaterSplashFX
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa90e2bf1eab3de429bfd33eaa81a3d3, type: 3}
 --- !u!4 &3140298282738158600
 Transform:
   m_ObjectHideFlags: 0
@@ -3413,7 +3470,7 @@ GameObject:
   - component: {fileID: 7023826335453897817}
   - component: {fileID: 8350460808863151548}
   - component: {fileID: 8350460808863151547}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SunkenBoat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3552,7 +3609,7 @@ PrefabInstance:
       objectReference: {fileID: 1816490136}
     - target: {fileID: 8148950735069018623, guid: 024ec0164f213894d824cbd28de10cd1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8148950735069018623, guid: 024ec0164f213894d824cbd28de10cd1, type: 3}
       propertyPath: m_LocalPosition.x

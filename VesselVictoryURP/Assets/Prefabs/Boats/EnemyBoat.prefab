@@ -133,6 +133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   awardedScoreForKill: 50
+  deathExplosionFX: {fileID: 7408575149024206549, guid: 442b3ba20c987a942bb8f55d67446e3a, type: 3}
 --- !u!114 &2925511729915218055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,6 +178,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 5653134068178229877}
   cannonDelayMinF: 2
   cannonDelayMaxF: 6
+  collisionFX: {fileID: 120434257849647224, guid: 54f0099654ef10c47bd3d9c5dd34ab6b, type: 3}
 --- !u!1 &8543283004377869012
 GameObject:
   m_ObjectHideFlags: 0

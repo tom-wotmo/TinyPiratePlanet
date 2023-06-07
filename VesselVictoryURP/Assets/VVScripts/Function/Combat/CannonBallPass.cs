@@ -1,13 +1,16 @@
-
+using System.Collections;
 using UnityEngine;
 
 public class CannonBallPass : MonoBehaviour
 {
     [SerializeField]private float delay = 0.5f;
     [SerializeField]private float projectileDamage = 10f;
+   
     void Start()
     {
         Destroy(gameObject, delay);
+        StartCoroutine(DestroyAfterDelay());
+        
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +22,11 @@ public class CannonBallPass : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    private IEnumerator DestroyAfterDelay()
+    {
+        yield return new WaitForSeconds(0.3f);
+        
     }
     public float getProjectileDamage() { return projectileDamage; }
    

@@ -23,6 +23,7 @@ public class PlayerManager : MonoBehaviour
         {
             thisShipStats.setPlayerShipHealth(thisShipHealth - projectileDamage);
 
+
         }
     }
  

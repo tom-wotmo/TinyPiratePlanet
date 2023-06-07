@@ -7,12 +7,11 @@ public class EnemyShipStats : Stats
     private float health;
     private int id;
     private int currentPrefabsInScene;
-
     private int currentScore;
-    [SerializeField] private int awardedScoreForKill;
 
-    
- 
+    [SerializeField] private int awardedScoreForKill;
+    [SerializeField] private GameObject deathExplosionFX;
+
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;
@@ -31,7 +30,9 @@ public class EnemyShipStats : Stats
             ScoreHandler.Instance.setPlayerScore(currentScore + awardedScoreForKill);
             currentPrefabsInScene = EnemySpawner.Instance.getCurrentPrefabCountsInScene();
             EnemySpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
-   
+
+            Instantiate(deathExplosionFX, transform.position, transform.rotation);
+
             Destroy(this.gameObject);
         }
     }
