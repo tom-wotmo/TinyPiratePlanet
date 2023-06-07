@@ -3,12 +3,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-	[SerializeField]private float moveSpeed = 10f;
-	[SerializeField]private float rotationSpeed = 10f;
+	[SerializeField]private float moveSpeed;
+	[SerializeField]private float rotationSpeed;
 
 	private float rotation;
 	private Rigidbody rb;
 
+	public static PlayerController Instance { get; private set; }
+	private void Awake()
+	{
+		if (Instance == null)
+		{ Instance = this; }
+	}
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
@@ -28,5 +34,7 @@ public class PlayerController : MonoBehaviour
 		rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, 50f * Time.deltaTime));
 	
 	}
+	public float getPlayerControllerMoveSpeed() { return moveSpeed; }
+	public void setPlayerControllerMoveSpeed(float i) { moveSpeed = i; }
 
 }

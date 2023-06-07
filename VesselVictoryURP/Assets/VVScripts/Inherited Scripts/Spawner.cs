@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    [SerializeField] protected GameObject prefabToSpawn;
-    [SerializeField] protected GameObject worldSphere;
+    [SerializeField] protected GameObject prefabToSpawn; 
+    [SerializeField] protected GameObject worldSphere; 
     [SerializeField] protected int maximumPrefabCountInScene = 3;
     [SerializeField] protected float timeToSpawn;
-    
-    protected int currentPrefabCountInScene = 0;
+    [SerializeField] protected float minSpawnDelay, maxSpawnDelay;
 
+    protected int currentPrefabCountInScene = 0;
+    
     public static Spawner Instance;
     private void Awake()
     {
         if (Instance == null)
         { Instance = this; }
-      
+        
     }
     private void Update()
     {
-        if (Time.time >= timeToSpawn) 
-        { spawnPrefabs(prefabToSpawn); }
+        StartCoroutine(SpawnPrefabsCoroutine(prefabToSpawn));
     }
-    protected virtual void spawnPrefabs(GameObject prefab)
+    protected virtual void LegacySpawnPrefabs(GameObject prefab)
     {
         float worldSphereRadius = worldSphere.transform.localScale.x / 2f;
 
@@ -37,7 +37,20 @@ public class Spawner : MonoBehaviour
 
         }
     }
+    protected virtual IEnumerator SpawnPrefabsCoroutine(GameObject prefab)
+    {
+        float worldSphereRadius = worldSphere.transform.localScale.x / 2f;
 
+            for (int i = 0; currentPrefabCountInScene < maximumPrefabCountInScene; i++)
+            {
+                currentPrefabCountInScene++;
+                yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));
+                Vector3 randomPoint = Random.onUnitSphere * worldSphereRadius;
+                Instantiate(prefab.transform, randomPoint, Quaternion.identity, null);
+                
+            }
+        
+    }
     public virtual int getCurrentPrefabCountsInScene()  { return currentPrefabCountInScene; }
     public virtual void setCurrentPrefabCountsInScene(int i) { currentPrefabCountInScene = i; }
 }

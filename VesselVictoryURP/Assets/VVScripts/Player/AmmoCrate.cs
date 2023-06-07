@@ -8,6 +8,7 @@ public class AmmoCrate : MonoBehaviour
     private int currentPrefabsInScene;
 
     private float currentShipAmmo;
+
     private void Start()
     {
         ship = FindObjectOfType<PlayerShipStats>();
@@ -19,11 +20,13 @@ public class AmmoCrate : MonoBehaviour
             currentShipAmmo = ship.getPlayerShipAmmo();
             ship.setPlayerShipAmmo(currentShipAmmo + ammoCrateAmmoCapacity);
 
-            currentPrefabsInScene = Spawner.Instance.getCurrentPrefabCountsInScene();
-            Spawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
+            currentPrefabsInScene = CrateSpawner.Instance.getCurrentPrefabCountsInScene();
+            CrateSpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
       
             Destroy(gameObject);
+
         }
         
     } 
+   
 }
