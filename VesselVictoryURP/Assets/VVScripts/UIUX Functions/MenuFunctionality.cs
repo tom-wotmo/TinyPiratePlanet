@@ -17,10 +17,6 @@ public class MenuFunctionality : MonoBehaviour
         {
             Instance = this;
         }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
     private void Update()
     {
@@ -35,6 +31,10 @@ public class MenuFunctionality : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetSceneAt(1).buildIndex);
         ScoreHandler.Instance.UpdateHighScore();
+    }
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex(1).buildIndex);
     }
     public void ResumeGame()
     {
