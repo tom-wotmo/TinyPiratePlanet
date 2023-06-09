@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerShipStats  : Stats
 {
     [SerializeField] private float health;
     [SerializeField] private float shipAmmo = 0f;
-    [SerializeField] private Text ammoUItext;
-
-
+    [SerializeField] private TextMeshProUGUI ammoUITMP;
+  
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;
@@ -17,7 +17,7 @@ public class PlayerShipStats  : Stats
     }
     private void Update()
     {
-        ammoUItext.text = shipAmmo.ToString();
+        ammoUITMP.text = shipAmmo.ToString();
         Death();
     }
     public override void Death()

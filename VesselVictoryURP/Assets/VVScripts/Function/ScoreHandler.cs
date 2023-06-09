@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ScoreHandler : MonoBehaviour
 {
     public static ScoreHandler Instance { get; private set; }
 
-    [SerializeField] private Text scoreUItext;
-    [SerializeField] private Text highScoreTextLabel;
+    [SerializeField] private TextMeshProUGUI scoreUITMP;
+    [SerializeField] private TextMeshProUGUI highScoreUITMP;
 
     private const int DEFAULT_START_PLAYER_SCORE = 0;
     private int playerScore;
@@ -25,13 +25,13 @@ public class ScoreHandler : MonoBehaviour
     {
         playerScore = DEFAULT_START_PLAYER_SCORE;
         highScore = PlayerPrefs.GetInt("PLAYER_HIGH_SCORE", 0);
+        
     }
     private void Update()
     {
-        scoreUItext.text = playerScore.ToString();
-        highScoreTextLabel.text = highScore.ToString();
+        scoreUITMP.text = playerScore.ToString();
+        highScoreUITMP.text = highScore.ToString();
         scoreAchievement();
-        
     }
 
     public void UpdateHighScore()
@@ -39,7 +39,6 @@ public class ScoreHandler : MonoBehaviour
         if(playerScore > highScore)
         {
             SaveScore();
-
         }
     }
     private void SaveScore()
