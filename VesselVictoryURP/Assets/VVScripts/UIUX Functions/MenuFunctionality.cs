@@ -9,7 +9,10 @@ public class MenuFunctionality : MonoBehaviour
     public static MenuFunctionality Instance { get; private set; }
 
     [SerializeField] private GameObject pauseMenu;
-    
+    [SerializeField] private GameObject settingsMenuCanvas;
+    [SerializeField] private GameObject mainMenuCanvas;
+    [SerializeField] private GameObject leaderboardCanvas;
+
     bool isPaused = false;
     private void Awake()
     {
@@ -29,12 +32,32 @@ public class MenuFunctionality : MonoBehaviour
     }
     public void EndGame()
     {
-        SceneManager.LoadScene(SceneManager.GetSceneAt(1).buildIndex);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex - 1);
         ScoreHandler.Instance.UpdateHighScore();
+        Time.timeScale = 1f;
     }
     public void StartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetSceneByBuildIndex(1).buildIndex);
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex + 1);
+        Time.timeScale = 1f;
+    }
+    public void LoadSettingsMenuCanvas()
+    {
+        settingsMenuCanvas.SetActive(true);
+        mainMenuCanvas.SetActive(false);
+    }
+    public void LoadMainMenuCanvas()
+    {
+        settingsMenuCanvas.SetActive(false);
+        leaderboardCanvas.SetActive(false);
+        mainMenuCanvas.SetActive(true);
+    }
+    public void LoadLeaderboardCanvas()
+    {
+        leaderboardCanvas.SetActive(true);
+        mainMenuCanvas.SetActive(false);
     }
     public void ResumeGame()
     {
