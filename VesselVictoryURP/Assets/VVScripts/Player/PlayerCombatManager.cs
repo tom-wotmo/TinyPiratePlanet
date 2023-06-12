@@ -4,9 +4,14 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private CannonBallPass projectileStats;
+    [SerializeField] private GameObject collisionFX;
+
     private PlayerShipStats thisShipStats;
     private float thisShipHealth;
     private float projectileDamage;
+
+
+
     private void Start()
     {
         thisShipStats = GetComponent<PlayerShipStats>();
@@ -22,8 +27,7 @@ public class PlayerManager : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("EnemyProjectiles"))
         {
             thisShipStats.setPlayerShipHealth(thisShipHealth - projectileDamage);
-
-
+            Instantiate(collisionFX, transform.position, transform.rotation);
         }
     }
  

@@ -18,6 +18,7 @@ public class PlayerShipStats  : Stats
     private void Update()
     {
         ammoUITMP.text = shipAmmo.ToString();
+        MaxHealthCheck();
         Death();
     }
     public override void Death()
@@ -26,6 +27,13 @@ public class PlayerShipStats  : Stats
         {
             ScoreHandler.Instance.UpdateHighScore();
             MenuFunctionality.Instance.RestartGame();
+        }
+    }
+    private void MaxHealthCheck()
+    {
+        if(health > DEFAULT_MAXIMUM_HEALTH)
+        {
+            health = DEFAULT_MAXIMUM_HEALTH;
         }
     }
     public float getPlayerShipAmmo() { return shipAmmo; }

@@ -103,7 +103,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1758466902
+--- !u!114 &307018132162670739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,10 +112,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 323893916763633978}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa53468b382d674dbd1b84a7f003c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: bf89ed813b099cd4788ee52eadc4cbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoCrateAmmoCapacity: 3
+  selectedOption: 0
+  pickUpItemValue: 3
 --- !u!114 &1197632767934929091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,21 +130,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placeOnSurface: 1
---- !u!114 &4984591011536916931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323893916763633978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0.8962264, g: 0.6484535, b: 0, a: 1}
-  outlineWidth: 2
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
