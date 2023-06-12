@@ -1856,6 +1856,7 @@ GameObject:
   - component: {fileID: 863885848}
   - component: {fileID: 863885850}
   - component: {fileID: 863885851}
+  - component: {fileID: 863885852}
   m_Layer: 0
   m_Name: Spawners
   m_TagString: Untagged
@@ -1893,7 +1894,6 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 393818128772696190, guid: 42464c32619ae1f4fa13fb64d82663e0, type: 3}
   worldSphere: {fileID: 763570173}
   maximumPrefabCountInScene: 3
-  timeToSpawn: 0
   minSpawnDelay: 5
   maxSpawnDelay: 10
 --- !u!114 &863885851
@@ -1911,9 +1911,25 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 323893916763633978, guid: 4a64e1f13ff9cc04c8b9fdd75fd4bc31, type: 3}
   worldSphere: {fileID: 763570173}
   maximumPrefabCountInScene: 3
-  timeToSpawn: 0
   minSpawnDelay: 5
   maxSpawnDelay: 10
+--- !u!114 &863885852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863885847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77c6e87743053c4dba7e896e3137b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 2323735832204953110, guid: 8e6ff88b09aacef46938cd2f85700385, type: 3}
+  worldSphere: {fileID: 763570173}
+  maximumPrefabCountInScene: 2
+  minSpawnDelay: 7
+  maxSpawnDelay: 15
 --- !u!1 &934603892
 GameObject:
   m_ObjectHideFlags: 0

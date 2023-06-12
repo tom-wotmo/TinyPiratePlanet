@@ -7,7 +7,6 @@ public class Spawner : MonoBehaviour
     [SerializeField] protected GameObject prefabToSpawn; 
     [SerializeField] protected GameObject worldSphere; 
     [SerializeField] protected int maximumPrefabCountInScene = 3;
-    [SerializeField] protected float timeToSpawn;
     [SerializeField] protected float minSpawnDelay, maxSpawnDelay;
 
     protected int currentPrefabCountInScene = 0;
