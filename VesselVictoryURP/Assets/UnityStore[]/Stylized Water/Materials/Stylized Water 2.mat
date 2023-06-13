@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Stylized Water 2
   m_Shader: {fileID: 4800000, guid: c8110ef7c96474f73b2ee5f90e026b10, type: 3}
-  m_ValidKeywords:
-  - SHADOWS
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - FANCY_SHADOWS
   - SAMPLE_SHADOWS
@@ -40,7 +39,7 @@ Material:
     - _DepthDensity: 0.629
     - _DistanceDensity: 0.408
     - _EdgeFoamDepth: 0.015
-    - _FancyShadows: 1
+    - _FancyShadows: 0
     - _FoamContribution: 0.763
     - _FoamNoiseScale: 0.305
     - _FoamScale: 0.4

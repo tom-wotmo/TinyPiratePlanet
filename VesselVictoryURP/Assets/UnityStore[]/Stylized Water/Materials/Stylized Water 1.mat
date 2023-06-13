@@ -9,8 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Stylized Water 1
   m_Shader: {fileID: 4800000, guid: c8110ef7c96474f73b2ee5f90e026b10, type: 3}
-  m_ValidKeywords:
-  - SHADOWS
+  m_ValidKeywords: []
   m_InvalidKeywords:
   - FANCY_SHADOWS
   - SAMPLE_SHADOWS
@@ -37,20 +36,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DepthDensity: 0.5
+    - _DepthDensity: 0.417
     - _DistanceDensity: 0.025
     - _EdgeFoamDepth: 0.25
-    - _FancyShadows: 1
+    - _FancyShadows: 0
     - _FoamContribution: 0.549
     - _FoamNoiseScale: 0.32
-    - _FoamScale: 10
+    - _FoamScale: 19.72
     - _FoamSpeed: 0.1
     - _MaxSampleDistance: 49
-    - _MaxShadowDistance: 50
+    - _MaxShadowDistance: 0
     - _ReflectionContribution: 1
     - _RefractionStrength: 0
     - _SparkleExponent: 20000
-    - _SparkleScale: 75
+    - _SparkleScale: 63
     - _SparkleSpeed: 0.025
     - _SunSpecularExponent: 3500
     - _VertexNormalDelta: 0.01
