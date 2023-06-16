@@ -5,21 +5,19 @@ using TMPro;
 
 public class ScoreHandler : MonoBehaviour
 {
-    public static ScoreHandler Instance { get; private set; }
-
     [SerializeField] private TextMeshProUGUI scoreUITMP;
     [SerializeField] private TextMeshProUGUI highScoreUITMP;
-
+   
     private const int DEFAULT_START_PLAYER_SCORE = 0;
     private int playerScore;
     private int highScore;
-
+    public static ScoreHandler Instance { get; private set; }
     private void Awake()
     {
         if (Instance == null)
         { Instance = this; }
-        else
-        { Destroy(gameObject); }
+
+        DontDestroyOnLoad(gameObject);
     }
     private void Start()
     {

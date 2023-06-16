@@ -2,15 +2,16 @@ using UnityEngine;
 
 public class SphereGravity : MonoBehaviour
 {
-    public static SphereGravity instance;
+    [SerializeField] private float gravity = -10f;
 
     private SphereCollider col;
 
+    public static SphereGravity Instance;
     void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
         else
         {
@@ -18,9 +19,6 @@ public class SphereGravity : MonoBehaviour
         }
         col = GetComponent<SphereCollider>();
     }
-
-    public float gravity = -10f;
-
     public void Attract(Rigidbody body)
     {
         Vector3 gravityUp = (body.position - transform.position).normalized;

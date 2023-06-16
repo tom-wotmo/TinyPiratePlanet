@@ -48,7 +48,6 @@ public class Spawner : MonoBehaviour
                 Instantiate(prefab.transform, randomPoint, Quaternion.identity, null);
                 
             }
-        
     }
     public virtual int getCurrentPrefabCountsInScene()  { return currentPrefabCountInScene; }
     public virtual void setCurrentPrefabCountsInScene(int i) { currentPrefabCountInScene = i; }

@@ -3,15 +3,15 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class SphereGravityBody : MonoBehaviour
 {
+    
+    [SerializeField] private bool placeOnSurface = false;
+
     private SphereGravity attractor;
     private Rigidbody rb;
-
-    public bool placeOnSurface = false;
-  
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        attractor = SphereGravity.instance;
+        attractor = SphereGravity.Instance;
     }
 
     private void FixedUpdate()
@@ -21,6 +21,5 @@ public class SphereGravityBody : MonoBehaviour
         else
             attractor.Attract(rb);
     }
-
 
 }

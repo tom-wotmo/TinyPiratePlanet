@@ -6,8 +6,8 @@ public class CameraSmoothFollow : MonoBehaviour
 	[SerializeField]private Transform target;
 	[SerializeField]private float smoothness = 1f;
 	[SerializeField]private float rotationSmoothness = .1f;
-
 	[SerializeField]private Vector3 offset;
+
 	private Vector3 velocity = Vector3.zero;
 
 	void FixedUpdate()

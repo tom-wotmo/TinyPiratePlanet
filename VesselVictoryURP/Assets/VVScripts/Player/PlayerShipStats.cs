@@ -26,7 +26,7 @@ public class PlayerShipStats  : Stats
         if (health <= DEFAULT_MINIMUM_HEALTH)
         {
             ScoreHandler.Instance.UpdateHighScore();
-            MenuFunctionality.Instance.RestartGame();
+            MenuFunctionality.Instance.GameOverScreen();
         }
     }
     private void MaxHealthCheck()
