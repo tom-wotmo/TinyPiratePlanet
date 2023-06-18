@@ -9,11 +9,15 @@ public class PlayerShipStats  : Stats
     [SerializeField] private float health;
     [SerializeField] private float shipAmmo = 0f;
     [SerializeField] private TextMeshProUGUI ammoUITMP;
-  
+    [SerializeField] private AudioClip deathClip;
+
+   
+
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;
         shipName = "PlayerShip";
+       
     }
     private void Update()
     {
@@ -27,6 +31,8 @@ public class PlayerShipStats  : Stats
         {
             ScoreHandler.Instance.UpdateHighScore();
             MenuFunctionality.Instance.GameOverScreen();
+            AudioManager.Instance.PlayOneShotSound(deathClip, 0.5f);
+
         }
     }
     private void MaxHealthCheck()

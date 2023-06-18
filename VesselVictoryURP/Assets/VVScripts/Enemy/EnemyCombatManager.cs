@@ -11,13 +11,14 @@ public class EnemyCombatManager : MonoBehaviour
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float cannonDelayMinF, cannonDelayMaxF;
     [SerializeField] public GameObject collisionFX;
+    [SerializeField] private AudioClip fireSoundFX;
+    [SerializeField] private float DEFAULT_CANNON_RANGE = 8f;
 
     private GameObject player;
     private Transform playerTransform;
 
     private const float DEFAULT_PROJECTILE_SPEED = 2.5f;
-    private const float DEFAULT_CANNON_RANGE = 8f;
-
+   
     private float thisShipHealth;
     private float projectileDamage;
     private float cannonOffset = 0.8f;
@@ -65,6 +66,8 @@ public class EnemyCombatManager : MonoBehaviour
 
             spawnPoint.LookAt(playerTransform);
             projectileRigidBody.velocity = (playerOffsetPosition) * DEFAULT_PROJECTILE_SPEED;
+
+            AudioManager.Instance.PlayOneShotSound(fireSoundFX, 0.3f);
         }
     }
     //Patchwork bug fix to stop all cannons from firing upon 

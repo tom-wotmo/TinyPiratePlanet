@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.5
   projectileDamage: 50
+  cannonBallHit: {fileID: 8300000, guid: 3e54c32149c145945832f0fc77ee6a9a, type: 3}
 --- !u!114 &3405299289128792169
 MonoBehaviour:
   m_ObjectHideFlags: 0

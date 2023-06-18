@@ -5,6 +5,7 @@ public class CannonBallPass : MonoBehaviour
 {
     [SerializeField]private float delay = 0.5f;
     [SerializeField]private float projectileDamage = 10f;
+    [SerializeField]private AudioClip cannonBallHit;
    
     void Start()
     {
@@ -16,11 +17,13 @@ public class CannonBallPass : MonoBehaviour
     {
         if(other.gameObject.layer == LayerMask.NameToLayer("EnemyBoat"))
         {
-            Destroy(gameObject);     
+            Destroy(gameObject);
+            AudioManager.Instance.PlayOneShotSound(cannonBallHit, 0.8f);
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBoat"))
         {
             Destroy(gameObject);
+            AudioManager.Instance.PlayOneShotSound(cannonBallHit, 0.8f);
         }
     }
     private IEnumerator DestroyAfterDelay()

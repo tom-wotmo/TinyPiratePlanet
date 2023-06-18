@@ -11,6 +11,8 @@ public class EnemyShipStats : Stats
 
     [SerializeField] private int awardedScoreForKill;
     [SerializeField] private GameObject deathExplosionFX;
+    [SerializeField] private AudioClip deathExplosionClip;
+
 
     private void Start()
     {
@@ -30,6 +32,7 @@ public class EnemyShipStats : Stats
             ScoreHandler.Instance.setPlayerScore(currentScore + awardedScoreForKill);
             currentPrefabsInScene = EnemySpawner.Instance.getCurrentPrefabCountsInScene();
             EnemySpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
+            AudioManager.Instance.PlayOneShotSound(deathExplosionClip, 1f);
 
             Instantiate(deathExplosionFX, transform.position, transform.rotation);
 

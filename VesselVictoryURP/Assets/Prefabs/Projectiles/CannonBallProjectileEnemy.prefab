@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -1486667554968126043, guid: a9a17a7e8e97a27409c28f1285b883a3, type: 3}
+      propertyPath: cannonBallHit
+      value: 
+      objectReference: {fileID: 8300000, guid: 95d7db4b734cb194fb1fb45bc04757aa, type: 3}
+    - target: {fileID: -1486667554968126043, guid: a9a17a7e8e97a27409c28f1285b883a3, type: 3}
       propertyPath: projectileDamage
       value: 15
       objectReference: {fileID: 0}

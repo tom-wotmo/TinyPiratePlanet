@@ -28,12 +28,18 @@ public class AudioManager : MonoBehaviour
 		ambient = gameObject.AddComponent<AudioSource>();
 		soundEffects = gameObject.AddComponent<AudioSource>();
     }
-	public void PlayOneShotSound(AudioClip clip)
+	[Tooltip("Volume between 0 , 1")]
+	public void PlayOneShotSound(AudioClip clip, float volume)
     {
+		volume = Mathf.Clamp01(volume);
+		soundEffects.volume = volume;
 		soundEffects.PlayOneShot(clip);
     }
-	public void PlayBackgroundLoop(AudioClip clip)
+	public void PlayBackgroundLoop(AudioClip clip, float volume)
     {
+		volume = Mathf.Clamp01(volume);
+		ambient.volume = volume;
+
 		ambient.clip = clip;
 		ambient.loop = true;
 		ambient.Play();
