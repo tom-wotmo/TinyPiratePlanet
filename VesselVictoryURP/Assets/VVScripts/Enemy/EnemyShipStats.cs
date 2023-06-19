@@ -32,11 +32,11 @@ public class EnemyShipStats : Stats
             ScoreHandler.Instance.setPlayerScore(currentScore + awardedScoreForKill);
             currentPrefabsInScene = EnemySpawner.Instance.getCurrentPrefabCountsInScene();
             EnemySpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
-            AudioManager.Instance.PlayOneShotSound(deathExplosionClip, 1f);
+            AudioManager.Instance.PlayOneShotSound(deathExplosionClip, 0.8f);
 
             Instantiate(deathExplosionFX, transform.position, transform.rotation);
 
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
     public float getEnemyShipHealth() { return health; }

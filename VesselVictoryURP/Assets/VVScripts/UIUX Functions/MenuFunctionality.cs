@@ -15,6 +15,8 @@ public class MenuFunctionality : MonoBehaviour
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private GameObject activeGameUI;
 
+    [SerializeField] private AudioClip clickSound;
+
     bool isAlive = true;
     bool isPaused = false;
 
@@ -26,16 +28,14 @@ public class MenuFunctionality : MonoBehaviour
         }
     }
     private void Update()
-    { 
+    {
         PressEscapeToPause();
-        ActiveGameUI();
-        Debug.Log(Time.timeScale);
     }
     public void RestartGame()
-    {
+    { 
         isAlive = true;
-        isPaused = false;
         Time.timeScale = 1f;
+        isPaused = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
@@ -83,14 +83,17 @@ public class MenuFunctionality : MonoBehaviour
     }
     public void PressEscapeToPause()
     {
+       
         if (isAlive)
         {
             if (!isPaused && Input.GetKeyDown(KeyCode.Escape))
             {
+                AudioManager.Instance.PlayOneShotSound(clickSound, 1f);
                 PauseGame();
             }
             else if (isPaused && Input.GetKeyDown(KeyCode.Escape))
             {
+                AudioManager.Instance.PlayOneShotSound(clickSound, 1f);
                 ResumeGame();
             }
         } 
@@ -116,16 +119,6 @@ public class MenuFunctionality : MonoBehaviour
     {
         Application.Quit();
     }
-    private void ActiveGameUI()
-    {
-        if (isAlive)
-        {
-            activeGameUI.SetActive(true);
-        }
-        else if (!isAlive)
-        {
-            activeGameUI.SetActive(false);
-        }
-    }
+ 
 }
 

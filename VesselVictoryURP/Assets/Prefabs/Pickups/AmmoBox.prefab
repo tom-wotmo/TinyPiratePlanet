@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedOption: 0
   pickUpItemValue: 3
+  pickUpSFX: {fileID: 8300000, guid: 44766caa059435f4fb71af84b2bea7e4, type: 3}
 --- !u!114 &1197632767934929091
 MonoBehaviour:
   m_ObjectHideFlags: 0

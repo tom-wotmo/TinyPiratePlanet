@@ -16,6 +16,8 @@ public class PickUpItem : MonoBehaviour
     private PlayerShipStats ship;
     private int currentPrefabsInScene;
     private float currentItemCount;
+
+    [SerializeField] private AudioClip pickUpSFX;
  
     public enum PickUpOptions
     {
@@ -46,6 +48,7 @@ public class PickUpItem : MonoBehaviour
         ship.setPlayerShipAmmo(currentItemCount + pickUpItemValue);
         currentPrefabsInScene = CrateSpawner.Instance.getCurrentPrefabCountsInScene();
         CrateSpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
+        AudioManager.Instance.PlayOneShotSound(pickUpSFX, 1f);
         Destroy(gameObject);
     }
     private void PickUpHealthShip()
@@ -54,6 +57,7 @@ public class PickUpItem : MonoBehaviour
         ship.setPlayerShipHealth(currentItemCount + pickUpItemValue);
         currentPrefabsInScene = HealthBoatSpawner.Instance.getCurrentPrefabCountsInScene();
         HealthBoatSpawner.Instance.setCurrentPrefabCountsInScene(currentPrefabsInScene - 1);
+        AudioManager.Instance.PlayOneShotSound(pickUpSFX, 1f);
         Destroy(gameObject);
     }
   

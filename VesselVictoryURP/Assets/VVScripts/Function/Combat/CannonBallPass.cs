@@ -18,12 +18,12 @@ public class CannonBallPass : MonoBehaviour
         if(other.gameObject.layer == LayerMask.NameToLayer("EnemyBoat"))
         {
             Destroy(gameObject);
-            AudioManager.Instance.PlayOneShotSound(cannonBallHit, 0.8f);
+            AudioManager.Instance.PlayOneShotSound(cannonBallHit, 0.65f);
         }
         else if (other.gameObject.layer == LayerMask.NameToLayer("PlayerBoat"))
         {
             Destroy(gameObject);
-            AudioManager.Instance.PlayOneShotSound(cannonBallHit, 0.8f);
+            AudioManager.Instance.PlayOneShotSound(cannonBallHit, 0.65f);
         }
     }
     private IEnumerator DestroyAfterDelay()

@@ -9,15 +9,19 @@ public class PlayerShipStats  : Stats
     [SerializeField] private float health;
     [SerializeField] private float shipAmmo = 0f;
     [SerializeField] private TextMeshProUGUI ammoUITMP;
-    [SerializeField] private AudioClip deathClip;
+    [SerializeField] private AudioClip deathClip, music;
 
-   
-
+    private bool isDead;
+    private void Awake()
+    {
+       
+    }
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;
         shipName = "PlayerShip";
-       
+        isDead = false;
+        
     }
     private void Update()
     {
@@ -27,11 +31,14 @@ public class PlayerShipStats  : Stats
     }
     public override void Death()
     {
-        if (health <= DEFAULT_MINIMUM_HEALTH)
+        if (health <= DEFAULT_MINIMUM_HEALTH && !isDead)
         {
+            isDead = true;
+
             ScoreHandler.Instance.UpdateHighScore();
             MenuFunctionality.Instance.GameOverScreen();
-            AudioManager.Instance.PlayOneShotSound(deathClip, 0.5f);
+            AudioManager.Instance.PlayOneShotSound(deathClip, 1f);
+            AudioManager.Instance.StopBackGroundLoop();
 
         }
     }

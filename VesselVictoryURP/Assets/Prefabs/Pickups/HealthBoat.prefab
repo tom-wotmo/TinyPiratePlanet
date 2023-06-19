@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474902bb568d0914c9558a9780f01a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.7
+  moveSpeed: 0.6
   rotationSpeed: 100
 --- !u!114 &5284812348820536007
 MonoBehaviour:
@@ -321,6 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedOption: 1
   pickUpItemValue: 10
+  pickUpSFX: {fileID: 8300000, guid: 02ef7d4191c9f42fdbe70de7e8b1825b, type: 3}
 --- !u!4 &8892000745630616139 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6094138974463609005, guid: a9479203cb5a8c04298f9a45a2215834, type: 3}

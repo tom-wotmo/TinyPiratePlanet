@@ -10,7 +10,6 @@ public class Stats : MonoBehaviour
     protected const int DEFAULT_ID = 0;
 
     protected string shipName = "ship";
-
     public virtual void Death()
     {
     }
