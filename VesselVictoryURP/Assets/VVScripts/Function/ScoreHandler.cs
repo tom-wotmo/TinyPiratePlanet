@@ -16,7 +16,6 @@ public class ScoreHandler : MonoBehaviour
     {
         if (Instance == null)
         { Instance = this; }
-
         DontDestroyOnLoad(gameObject);
     }
     private void Start()

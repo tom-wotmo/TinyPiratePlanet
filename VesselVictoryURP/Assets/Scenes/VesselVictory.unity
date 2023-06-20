@@ -6475,9 +6475,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 6a222603e1c254910bd40d483aef28b0, type: 3}
     - target: {fileID: 1036438858343675224, guid: be9c069465d75004387163e156f54e25, type: 3}
+      propertyPath: shipAmmo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036438858343675224, guid: be9c069465d75004387163e156f54e25, type: 3}
       propertyPath: ammoUITMP
       value: 
       objectReference: {fileID: 1878704934}
+    - target: {fileID: 1036438858343675225, guid: be9c069465d75004387163e156f54e25, type: 3}
+      propertyPath: fireClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5847820c22457f74f92971a34e194a6e, type: 3}
     - target: {fileID: 1036438858343675228, guid: be9c069465d75004387163e156f54e25, type: 3}
       propertyPath: m_RootOrder
       value: 3

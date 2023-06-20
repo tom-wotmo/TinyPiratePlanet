@@ -15,5 +15,4 @@ public class DestroyMe : MonoBehaviour
         Destroy(gameObject);
     }
 
-
 }

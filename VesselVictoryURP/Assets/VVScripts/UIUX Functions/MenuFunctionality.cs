@@ -39,7 +39,6 @@ public class MenuFunctionality : MonoBehaviour
         isAlive = true;
         Time.timeScale = 1f;
         isPaused = false;
-        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
@@ -98,7 +97,6 @@ public class MenuFunctionality : MonoBehaviour
     }
     public void PressEscapeToPause()
     {
-       
         if (isAlive)
         {
             if (!isPaused && Input.GetKeyDown(KeyCode.Escape))
@@ -124,7 +122,6 @@ public class MenuFunctionality : MonoBehaviour
         isAlive = false;
         Time.timeScale = 0f;
         gameOverScreen.SetActive(true);
-       
     }
     public void ClosePauseMenu()
     {

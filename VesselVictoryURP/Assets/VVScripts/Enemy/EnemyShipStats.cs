@@ -13,8 +13,6 @@ public class EnemyShipStats : Stats
     [SerializeField] private GameObject deathExplosionFX;
     [SerializeField] private AudioClip deathExplosionClip;
     [SerializeField] private GameObject damagedShip;
-
-
     private void Start()
     {
         health = DEFAULT_MAXIMUM_HEALTH;

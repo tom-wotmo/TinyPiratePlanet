@@ -6,6 +6,7 @@ public class PlayerCannon : MonoBehaviour
     [SerializeField] private Transform rightSpawnPoint;
     [SerializeField] private Transform leftSpawnPoint;
     [SerializeField] private float projectileSpeed = 10f;
+    [SerializeField] private AudioClip fireClip;
 
     private float boatAmmo;
     private PlayerShipStats ship;
@@ -36,12 +37,14 @@ public class PlayerCannon : MonoBehaviour
         {
             FireCannon(rightSpawnPoint);
             ship.setPlayerShipAmmo(boatAmmo - 1);
+            AudioManager.Instance.PlayOneShotSpatialSound(fireClip, 0.5f, 1f);
 
         }
         if (Input.GetKeyDown(leftCannonFireKey) && boatAmmo > 0)
         {
             FireCannon(leftSpawnPoint);
             ship.setPlayerShipAmmo(boatAmmo - 1);
+            AudioManager.Instance.PlayOneShotSpatialSound(fireClip, 0.5f, -1f);
         }
         else if (boatAmmo <= 0)
         {

@@ -7,7 +7,7 @@ using TMPro;
 public class PlayerShipStats  : Stats
 {
     [SerializeField] private float health;
-    [SerializeField] private float shipAmmo = 0f;
+    [SerializeField] private float shipAmmo = 3f;
     [SerializeField] private TextMeshProUGUI ammoUITMP;
     [SerializeField] private AudioClip deathClip, music;
 

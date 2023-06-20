@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
 	 
 	public static AudioManager Instance = null;
-	private AudioSource ambient1, ambient2, soundEffects;
+	private AudioSource ambient1, ambient2, soundEffects, spatialSoundEffects;
 
 	[SerializeField] private AudioClip ambientSound1, ambientSound2;
 	
@@ -22,18 +22,19 @@ public class AudioManager : MonoBehaviour
 		}
 		DontDestroyOnLoad(gameObject);
 	}
-    private void Start()
-    {
+	private void Start()
+	{
 		InitializeAudioSources();
 		AmbientBackGround(ambientSound1, ambientSound2);
 
-    }
+	}
     private void InitializeAudioSources()
     {
 		ambient1 = gameObject.AddComponent<AudioSource>();
 		ambient2 = gameObject.AddComponent<AudioSource>();
 
 		soundEffects = gameObject.AddComponent<AudioSource>();
+		spatialSoundEffects = gameObject.AddComponent<AudioSource>();
     }
 	[Tooltip("Volume between 0 , 1")]
 	public void PlayOneShotSound(AudioClip clip, float volume)
@@ -42,6 +43,14 @@ public class AudioManager : MonoBehaviour
 		soundEffects.volume = volume;
 		soundEffects.PlayOneShot(clip);
     }
+	public void PlayOneShotSpatialSound(AudioClip clip, float volume, float pan)
+	{
+		volume = Mathf.Clamp01(volume);
+		spatialSoundEffects.volume = volume;
+		spatialSoundEffects.PlayOneShot(clip);
+		pan = Mathf.Clamp(pan, -1f, 1f);
+		spatialSoundEffects.panStereo = pan;
+	}
 	private void AmbientBackGround(AudioClip clip1, AudioClip clip2)
 	{
 		PlayLoop(ambient1, clip1, 0.5f);

@@ -11,7 +11,6 @@ public class CannonBallPass : MonoBehaviour
     {
         Destroy(gameObject, delay);
         StartCoroutine(DestroyAfterDelay());
-        
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -29,7 +28,6 @@ public class CannonBallPass : MonoBehaviour
     private IEnumerator DestroyAfterDelay()
     {
         yield return new WaitForSeconds(0.3f);
-        
     }
     public float getProjectileDamage() { return projectileDamage; }
    

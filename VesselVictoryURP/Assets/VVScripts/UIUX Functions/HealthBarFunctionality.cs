@@ -7,7 +7,6 @@ public class HealthBarFunctionality : MonoBehaviour
 {
     private Image healthBar;
     private PlayerShipStats playerShipStats;
-   
     void Update()
     {
         UpdateHealthBar();

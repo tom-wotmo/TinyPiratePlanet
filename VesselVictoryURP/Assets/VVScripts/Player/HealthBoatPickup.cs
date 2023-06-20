@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthBoatPickup : MonoBehaviour
 {
-     [SerializeField] private float ammoCrateAmmoCapacity = 3f;
+    [SerializeField] private float ammoCrateAmmoCapacity = 3f;
     private PlayerShipStats ship;
     private int currentPrefabsInScene;
 
