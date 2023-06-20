@@ -11,11 +11,13 @@ public class MenuFunctionality : MonoBehaviour
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject settingsMenuCanvas;
     [SerializeField] private GameObject mainMenuCanvas;
+    [SerializeField] private GameObject titleCanvas;
     [SerializeField] private GameObject leaderboardCanvas;
     [SerializeField] private GameObject gameOverScreen;
     [SerializeField] private GameObject activeGameUI;
-
     [SerializeField] private AudioClip clickSound;
+    [SerializeField] private GameObject startTransition;
+    [SerializeField] private GameObject endTransition;
 
     bool isAlive = true;
     bool isPaused = false;
@@ -26,6 +28,7 @@ public class MenuFunctionality : MonoBehaviour
         {
             Instance = this;
         }
+        endTransition.SetActive(true);
     }
     private void Update()
     {
@@ -36,6 +39,7 @@ public class MenuFunctionality : MonoBehaviour
         isAlive = true;
         Time.timeScale = 1f;
         isPaused = false;
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
     }
@@ -49,9 +53,20 @@ public class MenuFunctionality : MonoBehaviour
     public void StartGame()
     {
         isAlive = true;
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        startTransition.SetActive(true);
+        mainMenuCanvas.SetActive(false);
+        titleCanvas.SetActive(false);
+        StartCoroutine(LoadDelayedStartLevel());
         Time.timeScale = 1f;
+    }
+    private IEnumerator LoadDelayedStartLevel()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentSceneIndex + 1);
+        }
     }
     public void LoadSettingsMenuCanvas()
     {

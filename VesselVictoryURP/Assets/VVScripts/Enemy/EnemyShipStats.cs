@@ -12,6 +12,7 @@ public class EnemyShipStats : Stats
     [SerializeField] private int awardedScoreForKill;
     [SerializeField] private GameObject deathExplosionFX;
     [SerializeField] private AudioClip deathExplosionClip;
+    [SerializeField] private GameObject damagedShip;
 
 
     private void Start()
@@ -23,6 +24,7 @@ public class EnemyShipStats : Stats
     private void Update()
     {
         Death();
+        shipDamagedDisplay();
     }
     public override void Death()
     {
@@ -38,6 +40,15 @@ public class EnemyShipStats : Stats
 
             Destroy(gameObject);
         }
+    }
+    public void shipDamagedDisplay()
+    {
+        if (health <= (DEFAULT_MAXIMUM_HEALTH / 2))
+        {
+            damagedShip.SetActive(true);
+        }
+        else
+            damagedShip.SetActive(false);
     }
     public float getEnemyShipHealth() { return health; }
     public void setEnemyShipHealth(float i) { health = i; }
